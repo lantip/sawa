@@ -196,7 +196,7 @@ False
 ```
 
 
-## ꦏꦩꦸꦱ꧀
+## ꦧꦲꦸꦱꦱꦠꦿ
 Fungsi iki padha karo `dict` ing `Python`. Fungsi iki kanggo gawé kolèksi sing ora kudu urut, bisa diowahi lan ana indhèksé.
 
 ```python
@@ -211,16 +211,16 @@ Output:
 {'ꦗꦼꦤꦼꦁ': 'ꦱꦸꦢꦂꦩꦗꦶ', 'ꦲꦸꦩꦸꦂ': '꧒꧓', 'ꦤꦼꦒꦫ': 'ꦩꦠꦫꦩ꧀'}
 ```
 
-## ꦠꦸꦭꦸꦁ 
-Fungsi iki padha karo `help` nang `python`. Fungsi iki kanggo ndelokne _help_ utawa bantuan ana ing sistem _built-in_ `python`.
-Yen diceluk kosongan, bakal metu pandhuan interaktif, ananging yen diwenehi jeneng salah siji fungsi, mula bakal diwenehi pandhuan angenani bab iku.
-Fungsi sing iso diceluk ana ing kene, isih kudu padha karo fungsi asline `python`, dadi yen arep ndelok bantuan kanggo fungsi `ꦥꦿꦶꦤ꧀` nulise kudu tetep `print`.
+## ꦥꦶꦠꦸꦭꦸꦁ 
+Fungsi iki padha karo `help` nang `python`. Fungsi iki kanggo ngetokné _help_ utawa bantuan ana ing sistem _built-in_ `python`.
+Yèn diceluk kosongan, bakal metu pandhuan interaktif, ananging yèn diwènèhi jeneng salah siji fungsi, mula bakal diwènèhi pandhuan angenani bab iku.
+Fungsi sing iso diceluk ana ing kéné, isih kudu padha karo fungsi asline `python`, dadi yèn arep ndelok bantuan kanggo fungsi `ꦥꦿꦶꦤ꧀` nulisé kudu tetep `print`.
 
 ```python
-ꦠꦸꦭꦸꦁ(print)
+ꦥꦶꦠꦸꦭꦸꦁ(print)
 
 ```
-_sing iki cobanen dhewe ya, dawa soale._
+_sing iki cobanen dhéwé ya, dawa soalé._
 
 ## ꦩꦶꦤꦶꦩꦭ꧀
 Fungsi iki padha karo `min` ana ing `python`. Kegunaané kanggo njupuk sing bijiné paling cendhek. Yèn isiané iku _string_ utawa _ukara_, mula bakal diurutaké miturut abjad.

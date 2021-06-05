@@ -1,0 +1,24 @@
+# iki conto kanggo fungsi ꦗꦸꦥꦸꦏ꧀ 
+ꦗꦸꦥꦸꦏ꧀ argparse ꦢꦢꦶ ꦥꦫꦼꦱ꧀
+ꦗꦸꦥꦸꦏ꧀ turtle ꦢꦢꦶ ꦏꦸꦫ
+
+
+ꦥꦂꦱꦼꦂ = ꦥꦫꦼꦱ꧀.ArgumentParser(description='ꦒꦩ꧀ꦧꦂꦥ꦳ꦶꦧꦺꦴꦤꦕꦶ')
+ꦥꦂꦱꦼꦂ.add_argument('ꦤ', type=int, help='ꦢꦮꦤꦺ ꦥ꦳ꦶꦧꦺꦴꦤꦕꦶ')
+ꦥꦂꦱꦼꦂ.add_argument('-ꦱ', '--scale', type=int, default=1)
+ꦥꦂꦱꦼꦂ.add_argument('--ꦱꦥ', type=int, default=6, help='ꦧꦤ꧀ꦠꦼꦂꦫꦺ')
+ꦲꦭꦱ꧀ = ꦥꦂꦱꦼꦂ.parse_args()
+
+
+ꦥ꦳ꦸꦁꦱꦶ ꦥ꦳ꦶꦧꦺꦴ(ꦤ):
+    ꦲ, ꦧ = 1, 1
+    ꦏꦁꦒꦺꦴ _ ꦤꦁ ꦲꦤ꧀ꦠꦫ(ꦤ):
+        ꦏꦱꦶꦭ꧀ ꦲ
+        ꦲ, ꦧ = ꦧ, ꦲ+ꦧ
+
+
+ꦏꦸꦫ.speed(ꦲꦭꦱ꧀.ꦱꦥ)
+ꦏꦸꦫ.right(90)
+
+ꦏꦁꦒꦺꦴ ꦤ ꦤꦁ ꦥ꦳ꦶꦧꦺꦴ(ꦲꦭꦱ꧀.ꦤ):    
+    ꦏꦸꦫ.circle(ꦤ*ꦲꦭꦱ꧀.scale, 90)

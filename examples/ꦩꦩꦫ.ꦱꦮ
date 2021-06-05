@@ -1,0 +1,12 @@
+# iki conto kanggo ꦱꦏ꧀ꦭꦺꦧꦠ꧀ (memoryview)
+ꦧꦠ = ꦧꦪ꧀ꦠ("ꦱꦸꦒꦼꦁ", "utf-8")
+ꦩ = ꦱꦏ꧀ꦭꦺꦧꦠ꧀(ꦧꦠ)
+
+ꦥꦿꦶꦤ꧀(ꦩ)
+
+# mbalèkaké yunikod saka aksara sepisan
+ꦥꦿꦶꦤ꧀(ꦩ[꧐])
+
+
+# mbalèkaké yunikod saka aksara kepindho
+ꦥꦿꦶꦤ꧀(ꦩ[꧑])

@@ -1,0 +1,10 @@
+# iki conto kanggo fungsi ꦕꦩ꧀ꦥꦸꦂ
+
+# ꦕꦩ꧀ꦥꦸꦂ kanggo integer (angka bulet), ora berubah
+ꦥꦿꦶꦤ꧀("ꦕꦩ꧀ꦥꦸꦂ kanggo ꧑꧘ yaiku: ", ꦕꦩ꧀ꦥꦸꦂ(꧑꧘) )
+
+# ꦕꦩ꧀ꦥꦸꦂ kanggo desimal
+ꦥꦿꦶꦤ꧀("ꦕꦩ꧀ꦥꦸꦂ kanggo ꧑꧘꧑.꧒꧓ yaiku: ", ꦕꦩ꧀ꦥꦸꦂ(꧑꧘꧑.꧒꧓) )
+
+# ꦕꦩ꧀ꦥꦸꦂ kanggo string (aksara wyanjana)
+ꦥꦿꦶꦤ꧀("ꦕꦩ꧀ꦥꦸꦂ kanggo ꦥꦶꦠꦺꦴꦤ꧀ yaiku: ", ꦕꦩ꧀ꦥꦸꦂ("ꦥꦶꦠꦺꦴꦤ꧀") )

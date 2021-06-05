@@ -1,8 +1,8 @@
 ꦥꦤ꧀ꦣꦸꦮꦤ꧀
 ===
-Serat iki kanggo pandhuwan menawa sliramu arep koding python nganggo aksara Jawa. Ana ing serat iki bakal dak udarake kabeh fungsi-fungsi ana ing basa pemrograman python kang wus kaalihaksaraake nang aksara Jawa.
+Serat iki kanggo pandhuwan menawa sliramu arep kodhing Python nganggo aksara Jawa. Ana ing serat iki bakal dak udaraké kabèh fungsi-fungsi ana ing basa pamrograman Python kang wus kaalihaksaraaké ing aksara Jawa.
 
-Sliramu bisa nulis angka nganggo aksara latin, utawa aksara Jawa.
+Sliramu bisa nulis angka nganggo aksara Latin, utawa aksara Jawa.
 ```python
 0 = ꧐
 1 = ꧑
@@ -16,9 +16,9 @@ Sliramu bisa nulis angka nganggo aksara latin, utawa aksara Jawa.
 9 = ꧙
 ```
 # ꦲꦸꦏꦫ
-Nang ngisor iki ukara utawa istilah ana ing `ꦱꦮ` lan padhanane ana ing `Python`. 
-Ing kolom mburi dhewe, dak sertaake tulisan latiné, menawa bisa nggampangake. Cara latin iku ora dinggo ana ing `ꦱꦮ`.
-| Python  | ꦱꦮ | latinipun |
+Ing isor iki ukara utawa istilah ana ing `ꦱꦮ` lan padhanané ana ing `Python`.
+Ing kolom mburi dhéwé, dak sertaaké tulisan Latiné, menawa bisa nggampangaké. Cara Latin iku ora dianggo ana ing `ꦱꦮ`.
+| Python  | ꦱꦮ | Latiné |
 |---|---|----|
 |  `True` |  `ꦧꦼꦤꦼꦂ` | bener |
 |  `False` |  `ꦱꦭꦃ` | salah |
@@ -42,13 +42,13 @@ Ing kolom mburi dhewe, dak sertaake tulisan latiné, menawa bisa nggampangake. C
 | `global` | `ꦗꦒꦢ꧀` | jagad |
 | `if` | `ꦪꦺꦤ꧀` | yèn |
 | `import` | `ꦗꦸꦥꦸꦏ꧀` | jupuk |
-| `in` | `ꦤꦁ` | nang |
+| `in` | `ꦲꦶꦁ` | ing |
 | `is` | `ꦪꦲꦶꦏꦸ` | yaiku |
 | `lambda` | `ꦧꦶꦪꦤ꧀ꦠꦸ` | biyantu |
 | `not` | `ꦢꦸꦢꦸ` | dudu |
 | `nonlocal` | `ꦲꦺꦴꦫꦭꦺꦴꦏꦭ꧀` | ora lokal |
 | `or` | `ꦲꦸꦠꦮ` | utawa |
-| `pass` | `ꦭꦺꦮꦠ꧀ꦠꦶ` | lewati |
+| `pass` | `ꦭꦶꦮꦠ꧀ꦠꦶ` | liwati |
 | `raise` | `ꦲꦁꦏꦠ꧀` | angkat |
 | `return` | `ꦧꦭꦶꦏ꧀` | balik |
 | `try` | `ꦕꦺꦴꦧ` | coba |
@@ -59,7 +59,7 @@ Ing kolom mburi dhewe, dak sertaake tulisan latiné, menawa bisa nggampangake. C
 | `int` | `ꦲꦁꦏ` | angka |
 | `float` | `ꦣꦺꦱꦶꦩꦭ꧀` | dhèsimal |
 | `string` | `ꦲꦸꦏꦫ` | ukara |
-|`__dict__`| `__ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀__` | `__objek__` |
+|`__dict__`| `__ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀__` | `__objèk__` |
 
 
 #
@@ -67,7 +67,7 @@ Ing kolom mburi dhewe, dak sertaake tulisan latiné, menawa bisa nggampangake. C
 
 ## ꦩꦸꦠ꧀ꦭꦏ꧀
 
-Fungsi iki padha dene karo fungsi `abs` ana ing python. Fungsi iki bakal mbalekake nilai absolut.
+Fungsi iki padha déné karo fungsi `abs` ana ing Python. Fungsi iki bakal mbalèkaké nilai absolut.
 ```python
 ꦲ  = ꦩꦸꦠ꧀ꦭꦏ꧀(-꧗.꧒꧕)
 
@@ -83,7 +83,7 @@ Output:
 
 ## ꦲꦥꦸꦱ꧀ꦲꦠꦿꦶꦧꦸꦠ꧀
 
-Fungsi iki padha dene karo fungsi `delattr` ana ing python. Fungsi iki kanggo mbusak atribut saka objek.
+Fungsi iki padha déné karo fungsi `delattr` ana ing python. Fungsi iki kanggo mbusak atribut saka objèk.
 ```python
 ꦏꦼꦭꦱ꧀ ꦩꦤꦸꦁꦱ:
     ꦥ꦳ꦸꦁꦱꦶ __ꦊꦏꦱ꧀__(ꦣꦺꦮꦺ):
@@ -107,13 +107,13 @@ Output:
 ```
 ## ꦕꦩ꧀ꦥꦸꦂ
 
-Fungsi iki padha karo fungsi `hash` ana ing `Python`. 
+Fungsi iki padha karo fungsi `hash` ana ing `Python`.
 
 ```python
-# ꦕꦩ꧀ꦥꦸꦂ kanggo integer (angka bulet), ora berubah
+# ꦕꦩ꧀ꦥꦸꦂ kanggo integer (angka bulet), ora owah
 ꦥꦿꦶꦤ꧀("ꦕꦩ꧀ꦥꦸꦂ kanggo ꧑꧘ yaiku: ", ꦕꦩ꧀ꦥꦸꦂ(꧑꧘) )
 
-# ꦕꦩ꧀ꦥꦸꦂ kanggo desimal
+# ꦕꦩ꧀ꦥꦸꦂ kanggo dhèsimal
 ꦥꦿꦶꦤ꧀("ꦕꦩ꧀ꦥꦸꦂ kanggo ꧑꧘꧑.꧒꧓ yaiku: ", ꦕꦩ꧀ꦥꦸꦂ(꧑꧘꧑.꧒꧓) )
 
 # ꦕꦩ꧀ꦥꦸꦂ kanggo string (aksara wyanjana)
@@ -130,8 +130,8 @@ Output:
 
 ## ꦱꦏ꧀ꦭꦺꦧꦠ꧀
 
-Fungsi iki padha karo `memoryview` nang `Python`. Kegunaane mbalèkaké _memory view_ saka objek.
-Fungsi iki amung nampa bytes, kamangka aksara jawa iku dudu karakter ascii, mula kudu diubah dhisik dadi byte nganggo fungsi [ꦧꦪ꧀ꦠ](#ꦧꦪ꧀ꦠ).
+Fungsi iki padha karo `memoryview` ing `Python`. Kegunaané mbalèkaké _memory view_ saka objèk.
+Fungsi iki amung nampa bytes, kamangka aksara Jawa iku dudu karakter ascii, mula kudu diowahi dhisik dadi byte nganggo fungsi [ꦧꦪ꧀ꦠ](#ꦧꦪ꧀ꦠ).
 
 ```python
 ꦧꦠ = ꦧꦪ꧀ꦠ("ꦱꦸꦒꦼꦁ", "utf-8")
@@ -143,7 +143,7 @@ Fungsi iki amung nampa bytes, kamangka aksara jawa iku dudu karakter ascii, mula
 ꦥꦿꦶꦤ꧀(ꦩ[꧐])
 
 
-# mbalèkaké yunikod saka aksara kepindho
+# mbalèkaké yunikod saka aksara kapindho
 ꦥꦿꦶꦤ꧀(ꦩ[꧑])
 
 ```
@@ -156,7 +156,7 @@ Output:
 
 ## ꦲꦺꦴꦩ꧀ꦧꦾꦺꦴꦏ꧀
 
-Fungsi iki padha karo `set` nang `Python`. Kegunaane kanggo gawe kumpulan objek.
+Fungsi iki padha karo `set` ing `Python`. Kegunaané kanggo gawé kumpulan objèk.
 
 ```python
 ꦩ = ꦲꦺꦴꦩ꧀ꦧꦾꦺꦴꦏ꧀(("ꦣꦸꦏꦸ","ꦣꦺꦴꦚ꧀ꦣꦺꦴꦁ","ꦱꦭꦏ꧀"))
@@ -170,45 +170,45 @@ Output:
 ```
 
 ## ꦏꦧꦺꦃ
-Fungsi iki padha karo `all` nang `Python`. Fungsi iki bakal mbalèkaké `ꦧꦼꦤꦼꦂ` yen kabeh ukara isine ꦧꦼꦤꦼꦂ (_True_), lan bakal mbalèkaké `ꦱꦭꦃ` yen ora.
+Fungsi iki padha karo `all` ing `Python`. Fungsi iki bakal mbalèkaké `ꦧꦼꦤꦼꦂ` yèn kabèh ukara isiné ꦧꦼꦤꦼꦂ (_True_), lan bakal mbalèkaké `ꦱꦭꦃ` yèn ora.
 
 ```python
 ꦩ = [ꦧꦼꦤꦼꦂ,ꦧꦼꦤꦼꦂ,ꦧꦼꦤꦼꦂ]
 ꦏ = ꦏꦧꦺꦃ(ꦩ)
 
-ꦥꦿꦶꦤ꧀("iki bakal hasile ꦧꦼꦤꦼꦂ (True)")
+ꦥꦿꦶꦤ꧀("iki bakal asilé ꦧꦼꦤꦼꦂ (True)")
 ꦥꦿꦶꦤ꧀(ꦏ)
 
 ꦩ = [ꦧꦼꦤꦼꦂ,ꦧꦼꦤꦼꦂ,ꦱꦭꦃ]
 ꦏ = ꦏꦧꦺꦃ(ꦩ)
 
-ꦥꦿꦶꦤ꧀("iki bakal hasile ꦱꦭꦃ (False)")
+ꦥꦿꦶꦤ꧀("iki bakal asilé ꦱꦭꦃ (False)")
 ꦥꦿꦶꦤ꧀(ꦏ)
 
 
 ```
 Output:
 ```bash
-iki bakal hasile ꦧꦼꦤꦼꦂ (True)
+iki bakal asilé ꦧꦼꦤꦼꦂ (True)
 True
-iki bakal hasile ꦱꦭꦃ (False)
+iki bakal asilé ꦱꦭꦃ (False)
 False
 ```
 
 
-## "ꦏꦩꦸꦱ꧀": "dict", #kamus
+## "ꦧꦲꦸꦱꦱꦠꦿ": "dict", #bausastra
 
-## "ꦠꦸꦭꦸꦁ": "help", #tulung
+## "ꦥꦶꦠꦸꦭꦸꦁ": "help", #pitulung
 
 ## "ꦩꦶꦤꦶꦩꦭ꧀": "min", # minimal
 
-## "ꦱꦺꦠꦂ": "setattr", # setar 
+## "ꦱꦺꦠꦂ": "setattr", # sètar
 
 ## "ꦏꦁ": "any", # kang
 
 ## "ꦣꦶꦂ": "dir", # dhir
 
-## "ꦲꦺꦏ꦳꧀": "hex", #heks
+## "ꦲꦺꦏ꦳꧀": "hex", #hèks
 
 ## "ꦧꦕꦸꦠ꧀": "next", #bacut
 
@@ -220,7 +220,7 @@ False
 
 ## "ꦲꦶꦣꦶ": "id", # idhi
 
-## "ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀": "object", # objek
+## "ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀": "object", # objèk
 
 ## "ꦲꦸꦫꦸꦠ꧀": "sorted", # urut
 
@@ -240,13 +240,13 @@ False
 
 ## "ꦲꦁꦏ": "int", # angka
 
-## "ꦧꦸꦏ": "open", # buka
+## "ꦧꦸꦏꦏ꧀": "open", # bukak
 
 ## "ꦱꦼꦫꦠ꧀": "str", # serat
 
-## "ꦊꦏꦱ꧀ꦩꦤꦺꦃ": "breakpoint", #lekasmaneh
+## "ꦊꦏꦱ꧀ꦩꦤꦺꦃ": "breakpoint", #lekasmanèh
 ## "ꦲꦗꦂ": "exec", # ajar
-## "ꦧꦭꦤꦺ": "isinstance", #balane
+## "ꦧꦭꦤꦺ": "isinstance", #balané
 ## "ꦲꦺꦴꦫꦼꦢ꧀": "ord", #ored
 ## "ꦗꦸꦩ꧀ꦭꦃ": "sum", #jumlah
 ## "ꦧꦶꦠꦼꦫꦺ": "bytearray", #bitere
@@ -255,17 +255,17 @@ False
 ## "ꦏ꧀ꦮꦱ": "pow", #kwasa
 ## "ꦲꦸꦠꦩ": "super", #utama
 ## "ꦧꦪ꧀ꦠ": "bytes", #bayta
-## "ꦣꦺꦱꦶꦩꦭ꧀": "float", #desimal
+## "ꦣꦺꦱꦶꦩꦭ꧀": "float", #dhèsimal
 ## "ꦥꦫ": "iter", # para
 ## "ꦠꦸꦥꦼꦭ꧀": "tuple", # tupel
 ## "ꦔꦸꦚ꧀ꦢꦁ": "callable", # ngundang
 ## "ꦮꦸꦗꦸꦢ꧀": "format", # wujud
 ## "ꦢꦮ": "len", # dawa
-## "ꦏꦒꦸꦁꦔꦤꦺ": "property", # kagungane
-## "ꦩꦺꦴꦣꦺꦭ꧀": "type", # modhel
+## "ꦏꦒꦸꦁꦔꦤꦺ": "property", # kagungané
+## "ꦩꦺꦴꦣꦺꦭ꧀": "type", # modhèl
 ## "ꦕꦂ": "chr", #car
 ## "ꦧꦼꦏꦸꦮꦤ꧀": "frozenset", #bekuwan
-## "ꦣꦥ꦳꧀ꦠꦂ": "list", #daftar
+## "ꦥꦿꦠꦺꦭꦤ꧀": "list", #pratélan
 ## "ꦲꦤ꧀ꦠꦫ": "range", # antara
 ## "ꦥ꦳ꦉꦱ꧀": "vars", # fares
 ## "ꦩꦺꦠꦺꦴꦢ꧀ꦏꦼꦭꦱ꧀": "classmethod", #metodkelas

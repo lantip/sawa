@@ -4,7 +4,7 @@
 
 **_sawa (ꦱꦮ)_** is an open source programming language, an interpreter to be precise, where you can write python code using javanese character.
 
-_sawa_ iku arane program iki sing ndadekake awakmu iso koding python nganggo aksara jawa.
+_sawa_ iku arané program iki sing ndadèkaké awakmu bisa kodhing Python nganggo aksara Jawa.
 
 
 - **Hello world** 

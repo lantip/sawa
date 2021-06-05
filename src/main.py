@@ -20,7 +20,7 @@ num_dict = {
 keyword_dict = {
     "ꦧꦼꦤꦼꦂ": "True", # bener
     "ꦱꦭꦃ": "False", # salah
-    "ꦱꦸꦮꦸꦁ": "None", # suwung 
+    "ꦱꦸꦮꦸꦁ": "None", # suwung
     "ꦢꦢꦶ": "as", # dadi
     "ꦱꦶꦢ": "assert", # sida
     "ꦲꦺꦴꦫꦩꦡꦸꦏ꧀": "async", # oramathuk
@@ -40,13 +40,13 @@ keyword_dict = {
     "ꦗꦒꦢ꧀": "global", #jagad
     "ꦪꦺꦤ꧀": "if", #yen
     "ꦗꦸꦥꦸꦏ꧀": "import", #jupuk
-    "ꦤꦁ": "in", #nang
+    "ꦲꦶꦁ": "in", #ing
     "ꦪꦲꦶꦏꦸ": "is", #yaiku
     "ꦧꦶꦪꦤ꧀ꦠꦸ": "lambda", #biyantu
     "ꦢꦸꦢꦸ": "not", #dudu
     "ꦲꦺꦴꦫꦭꦺꦴꦏꦭ꧀": "nonlocal", #oralokal
     "ꦲꦸꦠꦮ": "or", #utawa
-    "ꦭꦺꦮꦠ꧀ꦠꦶ": "pass", #lewati
+    "ꦭꦶꦮꦠ꧀ꦠꦶ": "pass", #liwati
     "ꦲꦁꦏꦠ꧀": "raise", #angkat
     "ꦧꦭꦶꦏ꧀": "return", #balik
     "ꦕꦺꦴꦧ": "try", #coba
@@ -57,7 +57,7 @@ keyword_dict = {
     "ꦲꦁꦏ": "int", #angka
     "ꦣꦺꦱꦶꦩꦭ꧀": "float", #dhesimal
     "ꦲꦸꦏꦫ": "string", #ukara
-    "__ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀__": "__dict__", # __objek__
+    "__ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀__": "__dict__", # __objèk__
 }
 
 function_dict = {
@@ -67,19 +67,19 @@ function_dict = {
     "ꦱꦏ꧀ꦭꦺꦧꦠ꧀": "memoryview", #saklebat
     "ꦲꦺꦴꦩ꧀ꦧꦾꦺꦴꦏ꧀": "set", #ombrok
     "ꦏꦧꦺꦃ": "all", #kabeh
-    "ꦏꦩꦸꦱ꧀": "dict", #kamus
-    "ꦠꦸꦭꦸꦁ": "help", #tulung
+    "ꦧꦲꦸꦱꦱꦠꦿ": "dict", #bausastra
+    "ꦥꦶꦠꦸꦭꦸꦁ": "help", #pitulung
     "ꦩꦶꦤꦶꦩꦭ꧀": "min", # minimal
-    "ꦱꦺꦠꦂ": "setattr", # setar 
+    "ꦱꦺꦠꦂ": "setattr", # sètar
     "ꦏꦁ": "any", # kang
     "ꦣꦶꦂ": "dir", # dhir
-    "ꦲꦺꦏ꦳꧀": "hex", #heks
+    "ꦲꦺꦏ꦳꧀": "hex", #hèks
     "ꦧꦕꦸꦠ꧀": "next", #bacut
     "ꦲꦶꦫꦶꦱ꧀ꦱꦤ꧀": "slice", # irisan
     "ꦲꦱ꧀ꦏꦶ": "ascii", # aski
     "ꦢꦶꦥ꦳꧀ꦩꦺꦴꦢ꧀": "divmod", # difmod
     "ꦲꦶꦣꦶ": "id", # idhi
-    "ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀": "object", # objek
+    "ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀": "object", # objèk
     "ꦲꦸꦫꦸꦠ꧀": "sorted", # urut
     "ꦧꦶꦤ꧀": "bin", # bin
     "ꦲꦺꦤꦸꦩꦼꦂꦫꦺꦠ꧀": "enumerate", # enumeret
@@ -89,11 +89,11 @@ function_dict = {
     "ꦭꦺꦴꦒꦶꦱ꧀": "bool", # logis
     "ꦲꦺꦥ꦳ꦭ꧀": "eval", # efal
     "ꦲꦁꦏ": "int", # angka
-    "ꦧꦸꦏ": "open", # buka
+    "ꦧꦸꦏꦏ꧀": "open", # bukak
     "ꦱꦼꦫꦠ꧀": "str", # serat
-    "ꦊꦏꦱ꧀ꦩꦤꦺꦃ": "breakpoint", #lekasmaneh
+    "ꦊꦏꦱ꧀ꦩꦤꦺꦃ": "breakpoint", #lekasmanèh
     "ꦲꦗꦂ": "exec", # ajar
-    "ꦧꦭꦤꦺ": "isinstance", #balane
+    "ꦧꦭꦤꦺ": "isinstance", #balané
     "ꦲꦺꦴꦫꦼꦢ꧀": "ord", #ored
     "ꦗꦸꦩ꧀ꦭꦃ": "sum", #jumlah
     "ꦧꦶꦠꦼꦫꦺ": "bytearray", #bitere
@@ -102,17 +102,17 @@ function_dict = {
     "ꦏ꧀ꦮꦱ": "pow", #kwasa
     "ꦲꦸꦠꦩ": "super", #utama
     "ꦧꦪ꧀ꦠ": "bytes", #bayta
-    "ꦣꦺꦱꦶꦩꦭ꧀": "float", #desimal
+    "ꦣꦺꦱꦶꦩꦭ꧀": "float", #dhèsimal
     "ꦥꦫ": "iter", # para
     "ꦠꦸꦥꦼꦭ꧀": "tuple", # tupel
     "ꦔꦸꦚ꧀ꦢꦁ": "callable", # ngundang
     "ꦮꦸꦗꦸꦢ꧀": "format", # wujud
     "ꦢꦮ": "len", # dawa
-    "ꦏꦒꦸꦁꦔꦤꦺ": "property", # kagungane
-    "ꦩꦺꦴꦣꦺꦭ꧀": "type", # modhel
+    "ꦏꦒꦸꦁꦔꦤꦺ": "property", # kagungané
+    "ꦩꦺꦴꦣꦺꦭ꧀": "type", # modhèl
     "ꦕꦂ": "chr", #car
     "ꦧꦼꦏꦸꦮꦤ꧀": "frozenset", #bekuwan
-    "ꦣꦥ꦳꧀ꦠꦂ": "list", #daftar
+    "ꦥꦿꦠꦺꦭꦤ꧀": "list", #pratélan
     "ꦲꦤ꧀ꦠꦫ": "range", # antara
     "ꦥ꦳ꦉꦱ꧀": "vars", # fares
     "ꦩꦺꦠꦺꦴꦢ꧀ꦏꦼꦭꦱ꧀": "classmethod", #metodkelas
@@ -126,7 +126,7 @@ function_dict = {
     "ꦮꦭꦶꦏ꧀ꦲꦤꦺ": "reversed", #walikane
     "__ꦗꦸꦥꦸꦏ꧀__": "__import__", # __jupuk__
     "__ꦊꦏꦱ꧀__": "__init__", # __lekas__
-    "__ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀__": "__dict__", # __objek__
+    "__ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀__": "__dict__", # __objèk__
     "ꦩꦤꦺꦏ": "complex", #maneka
     "ꦒꦣꦃ": "hasattr", #gadhah
     "ꦥꦺꦴꦭ꧀": "max", #pol

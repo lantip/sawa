@@ -71,7 +71,7 @@ You may import python package an rename it as javanese name. For example:
 - Clone this repo:
 ```bash
 git clone https://github.com/lantip/sawa.git
-cd ya
+cd sawa
 ```
 - Run install.sh:
 ```bash

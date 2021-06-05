@@ -7,6 +7,7 @@
 _sawa_ iku arane program iki sing ndadekake awakmu iso koding python nganggo aksara jawa.
 
 
+
 - **Hello world** 
 ```python
 ꦥꦿꦶꦤ꧀("ꦱꦸꦒꦼꦁꦫꦮꦸꦃ")
@@ -81,6 +82,12 @@ cd sawa
 - Or run Makefile:
 ```bash
 make install
+```
+
+### Uninstall
+- Run uninstall.sh
+```bash
+./uninstall.sh
 ```
 
 ## Running

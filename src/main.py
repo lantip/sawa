@@ -70,6 +70,7 @@ function_dict = {
     "ꦏꦩꦸꦱ꧀": "dict", #kamus
     "ꦠꦸꦭꦸꦁ": "help", #tulung
     "ꦩꦶꦤꦶꦩꦭ꧀": "min", # minimal
+    "ꦒꦺꦠꦂ": "getattr", # getar
     "ꦱꦺꦠꦂ": "setattr", # setar 
     "ꦏꦁ": "any", # kang
     "ꦣꦶꦂ": "dir", # dhir

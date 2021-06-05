@@ -196,13 +196,87 @@ False
 ```
 
 
-## "ꦧꦲꦸꦱꦱꦠꦿ": "dict", #bausastra
+## ꦏꦩꦸꦱ꧀
+Fungsi iki padha karo `dict` ing `Python`. Fungsi iki kanggo gawé kolèksi sing ora kudu urut, bisa diowahi lan ana indhèksé.
 
-## "ꦥꦶꦠꦸꦭꦸꦁ": "help", #pitulung
+```python
+ꦩ = ꦧꦲꦸꦱꦱꦠꦿ(ꦗꦼꦤꦼꦁ = "ꦱꦸꦢꦂꦩꦗꦶ", ꦲꦸꦩꦸꦂ = "꧒꧓", ꦤꦼꦒꦫ = "ꦩꦠꦫꦩ꧀")
 
-## "ꦩꦶꦤꦶꦩꦭ꧀": "min", # minimal
+ꦥꦿꦶꦤ꧀(ꦩ)
 
-## "ꦱꦺꦠꦂ": "setattr", # sètar
+
+```
+Output:
+```bash
+{'ꦗꦼꦤꦼꦁ': 'ꦱꦸꦢꦂꦩꦗꦶ', 'ꦲꦸꦩꦸꦂ': '꧒꧓', 'ꦤꦼꦒꦫ': 'ꦩꦠꦫꦩ꧀'}
+```
+
+## ꦠꦸꦭꦸꦁ 
+Fungsi iki padha karo `help` nang `python`. Fungsi iki kanggo ndelokne _help_ utawa bantuan ana ing sistem _built-in_ `python`.
+Yen diceluk kosongan, bakal metu pandhuan interaktif, ananging yen diwenehi jeneng salah siji fungsi, mula bakal diwenehi pandhuan angenani bab iku.
+Fungsi sing iso diceluk ana ing kene, isih kudu padha karo fungsi asline `python`, dadi yen arep ndelok bantuan kanggo fungsi `ꦥꦿꦶꦤ꧀` nulise kudu tetep `print`.
+
+```python
+ꦠꦸꦭꦸꦁ(print)
+
+```
+_sing iki cobanen dhewe ya, dawa soale._
+
+## ꦩꦶꦤꦶꦩꦭ꧀
+Fungsi iki padha karo `min` ana ing `python`. Kegunaané kanggo njupuk sing bijiné paling cendhek. Yèn isiané iku _string_ utawa _ukara_, mula bakal diurutaké miturut abjad.
+
+```python
+ꦩ = ꦩꦶꦤꦶꦩꦭ꧀(꧓, ꧖, ꧒)
+
+ꦥꦿꦶꦤ꧀(ꦩ)
+
+
+```
+Output:
+```bash
+꧒
+
+```
+## ꦒꦺꦠꦂ 
+Fungsi iki padhanané `getattr` ana ing `python`. Kegunaané kanggo njupuk biji saka atribut tartamtu ana ing sawijining objèk.
+```python
+ꦏꦼꦭꦱ꧀ ꦩꦤꦸꦁꦱ:
+    ꦲꦫꦤꦺ = "ꦥꦲꦶꦗꦺꦴ"
+    ꦲꦸꦩꦸꦂ = 36 # utawa ꧓꧖
+    ꦤꦒꦫ = "ꦆꦤ꧀ꦝꦺꦴꦤꦺꦱꦶꦪ"
+
+ꦏ = ꦒꦺꦠꦂ(ꦩꦤꦸꦁꦱ, 'ꦲꦸꦩꦸꦂ')
+
+ꦥꦿꦶꦤ꧀(ꦏ)
+
+```
+Output:
+```bash
+꧓꧖
+
+```
+
+## ꦱꦺꦠꦂ
+Fungsi iki padhanané `setattr` ana ing `python`. Kegunaané kanggo ngisi biji utawa _value_ saka atribut tartamtu ana ing sawijining objèk.
+
+```python
+ꦏꦼꦭꦱ꧀ ꦩꦤꦸꦁꦱ:
+    ꦲꦫꦤꦺ = "ꦥꦲꦶꦗꦺꦴ"
+    ꦲꦸꦩꦸꦂ = 36 # utawa ꧓꧖
+    ꦤꦒꦫ = "ꦆꦤ꧀ꦝꦺꦴꦤꦺꦱꦶꦪ"
+
+ꦱꦺꦠꦂ(ꦩꦤꦸꦁꦱ, 'ꦲꦸꦩꦸꦂ', ꧔꧕ )
+
+ꦏ = ꦒꦺꦠꦂ(ꦩꦤꦸꦁꦱ, 'ꦲꦸꦩꦸꦂ')
+
+ꦥꦿꦶꦤ꧀(ꦏ)
+
+```
+Output:
+```bash
+꧔꧕
+
+```
 
 ## "ꦏꦁ": "any", # kang
 

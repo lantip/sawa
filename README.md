@@ -7,6 +7,7 @@
 _sawa_ iku arané program iki sing ndadèkaké awakmu bisa kodhing Python nganggo aksara Jawa.
 
 
+
 - **Hello world** 
 ```python
 ꦥꦿꦶꦤ꧀("ꦱꦸꦒꦼꦁꦫꦮꦸꦃ")
@@ -81,6 +82,12 @@ cd sawa
 - Or run Makefile:
 ```bash
 make install
+```
+
+### Uninstall
+- Run uninstall.sh
+```bash
+./uninstall.sh
 ```
 
 ## Running

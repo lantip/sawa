@@ -70,7 +70,8 @@ function_dict = {
     "ꦧꦲꦸꦱꦱꦠꦿ": "dict", #bausastra
     "ꦥꦶꦠꦸꦭꦸꦁ": "help", #pitulung
     "ꦩꦶꦤꦶꦩꦭ꧀": "min", # minimal
-    "ꦱꦺꦠꦂ": "setattr", # sètar
+    "ꦒꦺꦠꦂ": "getattr", # gètar
+    "ꦱꦺꦠꦂ": "setattr", # sètar 
     "ꦏꦁ": "any", # kang
     "ꦣꦶꦂ": "dir", # dhir
     "ꦲꦺꦏ꦳꧀": "hex", #hèks

@@ -67,11 +67,11 @@ function_dict = {
     "ꦱꦏ꧀ꦭꦺꦧꦠ꧀": "memoryview", #saklebat
     "ꦲꦺꦴꦩ꧀ꦧꦾꦺꦴꦏ꧀": "set", #ombrok
     "ꦏꦧꦺꦃ": "all", #kabeh
-    "ꦧꦲꦸꦱꦱꦠꦿ": "dict", #bausastra
+    "ꦧꦲꦸꦱꦱ꧀ꦠꦿ": "dict", #bausastra
     "ꦥꦶꦠꦸꦭꦸꦁ": "help", #pitulung
     "ꦩꦶꦤꦶꦩꦭ꧀": "min", # minimal
     "ꦒꦺꦠꦂ": "getattr", # gètar
-    "ꦱꦺꦠꦂ": "setattr", # sètar 
+    "ꦱꦺꦠꦂ": "setattr", # sètar
     "ꦏꦁ": "any", # kang
     "ꦣꦶꦂ": "dir", # dhir
     "ꦲꦺꦏ꦳꧀": "hex", #hèks

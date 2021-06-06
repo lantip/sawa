@@ -3,7 +3,7 @@
 # ꦕꦩ꧀ꦥꦸꦂ kanggo integer (angka bulet), ora berubah
 ꦥꦿꦶꦤ꧀("ꦕꦩ꧀ꦥꦸꦂ kanggo ꧑꧘ yaiku: ", ꦕꦩ꧀ꦥꦸꦂ(꧑꧘) )
 
-# ꦕꦩ꧀ꦥꦸꦂ kanggo desimal
+# ꦕꦩ꧀ꦥꦸꦂ kanggo dhèsimal
 ꦥꦿꦶꦤ꧀("ꦕꦩ꧀ꦥꦸꦂ kanggo ꧑꧘꧑.꧒꧓ yaiku: ", ꦕꦩ꧀ꦥꦸꦂ(꧑꧘꧑.꧒꧓) )
 
 # ꦕꦩ꧀ꦥꦸꦂ kanggo string (aksara wyanjana)

@@ -2,7 +2,7 @@
 # ꦱꦮ
 
 
-**_sawa (ꦱꦮ)_** is an open source programming language, an interpreter to be precise, where you can write python code using javanese character.
+**_sawa (ꦱꦮ)_** is an open source programming language, an interpreter to be precise, where you can write Python code using Javanese character.
 
 _sawa_ iku arané program iki sing ndadèkaké awakmu bisa kodhing Python nganggo aksara Jawa.
 
@@ -48,7 +48,7 @@ Output:
 ```
 
 - **Importing** 
-You may import python package an rename it as javanese name. For example:
+You may import Python package an rename it as Javanese name. For example:
 ```python
 ꦗꦸꦥꦸꦏ꧀ pandas ꦢꦢꦶ ꦥꦢ
 ꦗꦸꦥꦸꦏ꧀ numpy ꦢꦢꦶ ꦤꦥ
@@ -124,4 +124,4 @@ For guidelines see CONTRIBUTING.md
 To get started take a fork of this repository and clone it.
 
 ## Credits
-This interpreter is build heavily based on [YaLang](https://github.com/yalang) skeleton. Thankyou!
+This interpreter is build heavily based on [YaLang](https://github.com/yalang) skeleton. Thank you!

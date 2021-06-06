@@ -16,7 +16,7 @@ Sliramu bisa nulis angka nganggo aksara Latin, utawa aksara Jawa.
 9 = ꧙
 ```
 # ꦲꦸꦏꦫ
-Ing isor iki ukara utawa istilah ana ing `ꦱꦮ` lan padhanané ana ing `Python`.
+Ing isor iki ukara utawa istilah ana ing `ꦱꦮ` lan padhanané ana ing `python`.
 Ing kolom mburi dhéwé, dak sertaaké tulisan Latiné, menawa bisa nggampangaké. Cara Latin iku ora dianggo ana ing `ꦱꦮ`.
 | Python  | ꦱꦮ | Latiné |
 |---|---|----|
@@ -67,7 +67,7 @@ Ing kolom mburi dhéwé, dak sertaaké tulisan Latiné, menawa bisa nggampangak�
 
 ## ꦩꦸꦠ꧀ꦭꦏ꧀
 
-Fungsi iki padha déné karo fungsi `abs` ana ing Python. Fungsi iki bakal mbalèkaké nilai absolut.
+Fungsi iki padha déné karo fungsi `abs` ana ing `python`. Fungsi iki bakal mbalèkaké nilai absolut.
 ```python
 ꦲ  = ꦩꦸꦠ꧀ꦭꦏ꧀(-꧗.꧒꧕)
 
@@ -107,7 +107,7 @@ Output:
 ```
 ## ꦕꦩ꧀ꦥꦸꦂ
 
-Fungsi iki padha karo fungsi `hash` ana ing `Python`.
+Fungsi iki padha karo fungsi `hash` ana ing `python`.
 
 ```python
 # ꦕꦩ꧀ꦥꦸꦂ kanggo integer (angka bulet), ora owah
@@ -130,7 +130,7 @@ Output:
 
 ## ꦱꦏ꧀ꦭꦺꦧꦠ꧀
 
-Fungsi iki padha karo `memoryview` ing `Python`. Kegunaané mbalèkaké _memory view_ saka objèk.
+Fungsi iki padha karo `memoryview` ing `python`. Kegunaané mbalèkaké _memory view_ saka objèk.
 Fungsi iki amung nampa bytes, kamangka aksara Jawa iku dudu karakter ascii, mula kudu diowahi dhisik dadi byte nganggo fungsi [ꦧꦪ꧀ꦠ](#ꦧꦪ꧀ꦠ).
 
 ```python
@@ -156,7 +156,7 @@ Output:
 
 ## ꦲꦺꦴꦩ꧀ꦧꦾꦺꦴꦏ꧀
 
-Fungsi iki padha karo `set` ing `Python`. Kegunaané kanggo gawé kumpulan objèk.
+Fungsi iki padha karo `set` ing `python`. Kegunaané kanggo gawé kumpulan objèk.
 
 ```python
 ꦩ = ꦲꦺꦴꦩ꧀ꦧꦾꦺꦴꦏ꧀(("ꦣꦸꦏꦸ","ꦣꦺꦴꦚ꧀ꦣꦺꦴꦁ","ꦱꦭꦏ꧀"))
@@ -170,7 +170,7 @@ Output:
 ```
 
 ## ꦏꦧꦺꦃ
-Fungsi iki padha karo `all` ing `Python`. Fungsi iki bakal mbalèkaké `ꦧꦼꦤꦼꦂ` yèn kabèh ukara isiné ꦧꦼꦤꦼꦂ (_True_), lan bakal mbalèkaké `ꦱꦭꦃ` yèn ora.
+Fungsi iki padha karo `all` ing `python`. Fungsi iki bakal mbalèkaké `ꦧꦼꦤꦼꦂ` yèn kabèh ukara isiné ꦧꦼꦤꦼꦂ (_True_), lan bakal mbalèkaké `ꦱꦭꦃ` yèn ora.
 
 ```python
 ꦩ = [ꦧꦼꦤꦼꦂ,ꦧꦼꦤꦼꦂ,ꦧꦼꦤꦼꦂ]
@@ -196,11 +196,11 @@ False
 ```
 
 
-## ꦧꦲꦸꦱꦱꦠꦿ
-Fungsi iki padha karo `dict` ing `Python`. Fungsi iki kanggo gawé kolèksi sing ora kudu urut, bisa diowahi lan ana indhèksé.
+## ꦧꦲꦸꦱꦱ꧀ꦠꦿ
+Fungsi iki padha karo `dict` ing `python`. Fungsi iki kanggo gawé kolèksi sing ora kudu urut, bisa diowahi lan ana indhèksé.
 
 ```python
-ꦩ = ꦧꦲꦸꦱꦱꦠꦿ(ꦗꦼꦤꦼꦁ = "ꦱꦸꦢꦂꦩꦗꦶ", ꦲꦸꦩꦸꦂ = "꧒꧓", ꦤꦼꦒꦫ = "ꦩꦠꦫꦩ꧀")
+ꦩ = ꦧꦲꦸꦱꦱ꧀ꦠꦿ(ꦗꦼꦤꦼꦁ = "ꦱꦸꦢꦂꦩꦗꦶ", ꦲꦸꦩꦸꦂ = "꧒꧓", ꦤꦼꦒꦫ = "ꦩꦠꦫꦩ꧀")
 
 ꦥꦿꦶꦤ꧀(ꦩ)
 
@@ -212,9 +212,9 @@ Output:
 ```
 
 ## ꦥꦶꦠꦸꦭꦸꦁ 
-Fungsi iki padha karo `help` nang `python`. Fungsi iki kanggo ngetokné _help_ utawa bantuan ana ing sistem _built-in_ `python`.
+Fungsi iki padha karo `help` ing `python`. Fungsi iki kanggo ngetokné _help_ utawa pitulung ana ing sistem _built-in_ `python`.
 Yèn diceluk kosongan, bakal metu pandhuan interaktif, ananging yèn diwènèhi jeneng salah siji fungsi, mula bakal diwènèhi pandhuan angenani bab iku.
-Fungsi sing iso diceluk ana ing kéné, isih kudu padha karo fungsi asline `python`, dadi yèn arep ndelok bantuan kanggo fungsi `ꦥꦿꦶꦤ꧀` nulisé kudu tetep `print`.
+Fungsi sing bisa diceluk ana ing kéné, isih kudu padha karo fungsi asliné `python`, dadi yèn arep ndelok pitulung kanggo fungsi `ꦥꦿꦶꦤ꧀` nulisé kudu tetep `print`.
 
 ```python
 ꦥꦶꦠꦸꦭꦸꦁ(print)

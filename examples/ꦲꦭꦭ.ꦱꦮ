@@ -3,11 +3,11 @@
 ꦩ = [ꦧꦼꦤꦼꦂ,ꦧꦼꦤꦼꦂ,ꦧꦼꦤꦼꦂ]
 ꦏ = ꦏꦧꦺꦃ(ꦩ)
 
-ꦥꦿꦶꦤ꧀("iki bakal hasile ꦧꦼꦤꦼꦂ (True)")
+ꦥꦿꦶꦤ꧀("iki bakal asilé ꦧꦼꦤꦼꦂ (True)")
 ꦥꦿꦶꦤ꧀(ꦏ)
 
 ꦩ = [ꦧꦼꦤꦼꦂ,ꦧꦼꦤꦼꦂ,ꦱꦭꦃ]
 ꦏ = ꦏꦧꦺꦃ(ꦩ)
 
-ꦥꦿꦶꦤ꧀("iki bakal hasile ꦱꦭꦃ (False)")
+ꦥꦿꦶꦤ꧀("iki bakal asilé ꦱꦭꦃ (False)")
 ꦥꦿꦶꦤ꧀(ꦏ)

@@ -278,15 +278,93 @@ Output:
 
 ```
 
-## "ꦏꦁ": "any", # kang
+## ꦏꦁ
+Fungsi iki padhanané `any` ana ing `python`. Fungsi iki bakal ngetokaké nilai `True` menawa ana nilai `True` sak jroning `ꦥꦿꦠꦺꦭꦤ꧀`.
 
-## "ꦣꦶꦂ": "dir", # dhir
+```python
+ꦩ = [ꦱꦭꦃ, ꦧꦼꦤꦼꦂ, ꦱꦭꦃ]
 
-## "ꦲꦺꦏ꦳꧀": "hex", #hèks
+ꦏ = ꦏꦁ(ꦩ)
 
-## "ꦧꦕꦸꦠ꧀": "next", #bacut
+ꦥꦿꦶꦤ꧀(ꦏ)
 
-## "ꦲꦶꦫꦶꦱ꧀ꦱꦤ꧀": "slice", # irisan
+```
+Output:
+```bash
+True
+
+```
+
+
+## ꦣꦶꦂ
+Fungsi iki padhanané `dir` ana ing `python`. Fungsi iki bakal mbalèkaké samubarang prabotan lan cara ana ing salah sawijining objèk.
+
+```python
+ꦏꦼꦭꦱ꧀ ꦩꦤꦸꦁꦱ:
+    ꦲꦫꦤꦺ = "ꦥꦲꦶꦗꦺꦴ"
+    ꦲꦸꦩꦸꦂ = 36 # utawa ꧓꧖
+    ꦤꦒꦫ = "ꦆꦤ꧀ꦝꦺꦴꦤꦺꦱꦶꦪ"
+
+ꦥꦿꦶꦤ꧀(ꦣꦶꦂ(ꦩꦤꦸꦁꦱ))
+
+```
+Output:
+```bash
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'ꦤꦒꦫ', 'ꦲꦫꦤꦺ', 'ꦲꦸꦩꦸꦂ']
+
+```
+
+## ꦲꦺꦏ꦳꧀
+Fungsi kang padha karo `hex` ana ing `python`. Fungsi iki kanggo ngubah angka dadi heksadesimal.
+```python
+ꦲ = ꦲꦺꦏ꦳꧀(꧒꧕꧕)
+
+ꦥꦿꦶꦤ꧀(ꦲ)
+
+```
+Output:
+```bash
+꧐xff
+
+```
+
+
+## ꦧꦕꦸꦠ꧀
+Fungsi padhanané `next` ana ing `python`. Kanggo njupuk nilai sak banjuré saka pratèlan tartamtu.
+
+```python
+ꦩꦭꦱ = ꦥꦫ(["ꦣꦺꦴꦚ꧀ꦣꦺꦴꦁ", "ꦱꦭꦏ꧀", "ꦣꦸꦏꦸ"])
+ꦏ = ꦧꦕꦸꦠ꧀(ꦩꦭꦱ)
+ꦥꦿꦶꦤ꧀(ꦏ)
+ꦏ = ꦧꦕꦸꦠ꧀(ꦩꦭꦱ)
+ꦥꦿꦶꦤ꧀(ꦏ)
+ꦏ = ꦧꦕꦸꦠ꧀(ꦩꦭꦱ)
+ꦥꦿꦶꦤ꧀(ꦏ)
+
+
+```
+Output:
+```bash
+ꦣꦺꦴꦚ꧀ꦣꦺꦴꦁ
+ꦱꦭꦏ꧀
+ꦣꦸꦏꦸ
+
+```
+
+## ꦲꦶꦫꦶꦱ꧀ꦱꦤ꧀
+Fungsi iki padha karo `slice` ana ing `python`. Fungsi iki kanggo motong bagian saka pratèlan.
+
+```python
+ꦲ = ("ꦲ", "ꦤ", "ꦕ", "ꦫ", "ꦏ", "ꦢ", "ꦠ", "ꦱ", "ꦮ", "ꦭ")
+ꦏ = ꦲꦶꦫꦶꦱ꧀ꦱꦤ꧀(꧓)
+ꦥꦿꦶꦤ꧀(ꦲ[ꦏ])
+```
+Output:
+```bash
+('ꦲ', 'ꦤ', 'ꦕ')
+
+```
+
 
 ## "ꦲꦱ꧀ꦏꦶ": "ascii", # aski
 

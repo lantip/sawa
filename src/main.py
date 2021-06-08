@@ -78,7 +78,7 @@ function_dict = {
     "ꦧꦕꦸꦠ꧀": "next", #bacut
     "ꦲꦶꦫꦶꦱ꧀ꦱꦤ꧀": "slice", # irisan
     "ꦲꦱ꧀ꦏꦶ": "ascii", # aski
-    "ꦢꦶꦥ꦳꧀ꦩꦺꦴꦢ꧀": "divmod", # difmod
+    "ꦣꦶꦥ꦳꧀ꦩꦺꦴꦢ꧀": "divmod", # dhifmod
     "ꦲꦶꦣꦶ": "id", # idhi
     "ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀": "object", # objèk
     "ꦲꦸꦫꦸꦠ꧀": "sorted", # urut

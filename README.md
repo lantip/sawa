@@ -61,14 +61,16 @@ You may import Python package an rename it as Javanese name. For example:
 
 
 ## Prerequisites
-- Mac OS or Linux
+- Mac OS, Linux, Windows
 - Python 3
 
+***NOTE: Windows is still _untested_. Please use `pip` version, and let me know if it's not working.***
 
 ## Getting Started
 ### Installation
 
-**PLEASE NOTE: You need root access for Linux operating system.**
+### Build from scratch (for Mac OS and Linux)
+> **PLEASE NOTE: You need root access for Linux operating system.**
 - Clone this repo:
 ```bash
 git clone https://github.com/lantip/sawa.git
@@ -89,6 +91,12 @@ make install
 ```bash
 ./uninstall.sh
 ```
+### Using `pip` (For all OS)
+- Run Pip install:
+```bash
+pip install sawa
+```
+
 
 ## Running
 

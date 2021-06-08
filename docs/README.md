@@ -365,12 +365,45 @@ Output:
 
 ```
 
+## ꦲꦱ꧀ꦏꦶ
+Fungsi iki padha karo `ascii` ana ing `python`. Kanggo mbalèkaké hasil kang gampang diwaca saka manéka objèk. Fungsi iki bakal ngganti aksara _non-ascii_ dadi aksara uwal (_escape_). Amerga aksara jawa kalebu aksara non-ascii, mula yèn dikenani fungsi iki bakal dadi aksara uwal kabèh, sahingga kanggo conto dipilih aksara latin supaya kétok.
 
-## "ꦲꦱ꧀ꦏꦶ": "ascii", # aski
+```python
+ꦏ = ꦲꦱ꧀ꦏꦶ("nami kula Ståle")
+ꦥꦿꦶꦤ꧀(ꦏ)
+```
+Output:
+```bash
+'nami kula St\xe꧕le'
 
-## "ꦢꦶꦥ꦳꧀ꦩꦺꦴꦢ꧀": "divmod", # difmod
+```
 
-## "ꦲꦶꦣꦶ": "id", # idhi
+## ꦣꦶꦥ꦳꧀ꦩꦺꦴꦢ꧀
+Fungsi iki padhanané `divmod` ana ing `python`. Fungsi iki bakal mbalèkaké nilai _tuple_ kang isiné yaiku nilai para lan sisané nalika argumèn siji dipara argumèn loro.
+
+```python
+ꦏ = ꦣꦶꦥ꦳꧀ꦩꦺꦴꦢ꧀(꧕,꧒)
+ꦥꦿꦶꦤ꧀(ꦏ)
+```
+Output:
+```bash
+(꧒, ꧑)
+
+```
+
+## ꦲꦶꦣꦶ
+Fungsi iki padhanané `id` ana ing `python`. Kegunaané kanggo mbalèkaké _unique id_ saka sawijining objèk.
+
+```python
+ꦏ = ("ꦣꦺꦴꦚ꧀ꦣꦺꦴꦁ", "ꦱꦭꦏ꧀", "ꦣꦸꦏꦸ")
+ꦪ = ꦲꦶꦣꦶ(ꦏ)
+ꦥꦿꦶꦤ꧀(ꦪ)
+```
+Output:
+```bash
+꧔꧕꧕꧙꧔꧗꧒꧙꧖꧐
+
+```
 
 ## "ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀": "object", # objèk
 

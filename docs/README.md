@@ -80,6 +80,7 @@ Output:
 ```bash
 ꧗.꧒꧕
 ```
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦲꦧꦱ.ꦱꦮ)
 
 ## ꦲꦥꦸꦱ꧀ꦲꦠꦿꦶꦧꦸꦠ꧀
 
@@ -105,6 +106,8 @@ Output:
 {'ꦲꦫꦤꦺ': 'ꦥꦲꦶꦗꦺꦴ', 'ꦤꦒꦫ': 'ꦆꦤ꧀ꦝꦺꦴꦤꦺꦱꦶꦪ'}
 
 ```
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦏꦭꦱ.ꦱꦮ)
+
 ## ꦕꦩ꧀ꦥꦸꦂ
 
 Fungsi iki padha karo fungsi `hash` ana ing `python`.
@@ -127,6 +130,7 @@ Output:
 ꦕꦩ꧀ꦥꦸꦂ kanggo ꦥꦶꦠꦺꦴꦤ꧀ yaiku: -꧗꧔꧘꧖꧓꧗꧙꧘꧙꧐꧖꧐꧑꧔꧐꧘꧘꧒꧓
 
 ```
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦲꦱ.ꦱꦮ)
 
 ## ꦱꦏ꧀ꦭꦺꦧꦠ꧀
 
@@ -153,6 +157,7 @@ Output:
 ꧒꧓꧔
 ꧑꧖꧖
 ```
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦩꦩꦫ.ꦱꦮ)
 
 ## ꦲꦺꦴꦩ꧀ꦧꦾꦺꦴꦏ꧀
 
@@ -168,6 +173,8 @@ Output:
 ```bash
 {'ꦱꦭꦏ꧀', 'ꦣꦺꦴꦚ꧀ꦣꦺꦴꦁ', 'ꦣꦸꦏꦸ'}
 ```
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦱꦠ.ꦱꦮ)
+
 
 ## ꦏꦧꦺꦃ
 Fungsi iki padha karo `all` ing `python`. Fungsi iki bakal mbalèkaké `ꦧꦼꦤꦼꦂ` yèn kabèh ukara isiné ꦧꦼꦤꦼꦂ (_True_), lan bakal mbalèkaké `ꦱꦭꦃ` yèn ora.
@@ -194,7 +201,7 @@ True
 iki bakal asilé ꦱꦭꦃ (False)
 False
 ```
-
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦲꦭꦭ.ꦱꦮ)
 
 ## ꦧꦲꦸꦱꦱ꧀ꦠꦿ
 Fungsi iki padha karo `dict` ing `python`. Fungsi iki kanggo gawé kolèksi sing ora kudu urut, bisa diowahi lan ana indhèksé.
@@ -210,6 +217,7 @@ Output:
 ```bash
 {'ꦗꦼꦤꦼꦁ': 'ꦱꦸꦢꦂꦩꦗꦶ', 'ꦲꦸꦩꦸꦂ': '꧒꧓', 'ꦤꦼꦒꦫ': 'ꦩꦠꦫꦩ꧀'}
 ```
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦢꦏ.ꦱꦮ)
 
 ## ꦥꦶꦠꦸꦭꦸꦁ 
 Fungsi iki padha karo `help` ing `python`. Fungsi iki kanggo ngetokné _help_ utawa pitulung ana ing sistem _built-in_ `python`.
@@ -237,6 +245,8 @@ Output:
 ꧒
 
 ```
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦩꦤ.ꦱꦮ)
+
 ## ꦒꦺꦠꦂ 
 Fungsi iki padhanané `getattr` ana ing `python`. Kegunaané kanggo njupuk biji saka atribut tartamtu ana ing sawijining objèk.
 ```python
@@ -255,6 +265,7 @@ Output:
 ꧓꧖
 
 ```
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦒꦠꦫ.ꦱꦮ)
 
 ## ꦱꦺꦠꦂ
 Fungsi iki padhanané `setattr` ana ing `python`. Kegunaané kanggo ngisi biji utawa _value_ saka atribut tartamtu ana ing sawijining objèk.
@@ -277,6 +288,7 @@ Output:
 ꧔꧕
 
 ```
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦱꦠ.ꦱꦮ)
 
 ## ꦏꦁ
 Fungsi iki padhanané `any` ana ing `python`. Fungsi iki bakal ngetokaké nilai `True` menawa ana nilai `True` sak jroning `ꦥꦿꦠꦺꦭꦤ꧀`.
@@ -294,7 +306,7 @@ Output:
 True
 
 ```
-
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦲꦤ.ꦱꦮ)
 
 ## ꦣꦶꦂ
 Fungsi iki padhanané `dir` ana ing `python`. Fungsi iki bakal mbalèkaké samubarang prabotan lan cara ana ing salah sawijining objèk.
@@ -313,6 +325,7 @@ Output:
 ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'ꦤꦒꦫ', 'ꦲꦫꦤꦺ', 'ꦲꦸꦩꦸꦂ']
 
 ```
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦢꦫ.ꦱꦮ)
 
 ## ꦲꦺꦏ꦳꧀
 Fungsi kang padha karo `hex` ana ing `python`. Fungsi iki kanggo ngubah angka dadi heksadesimal.
@@ -328,6 +341,7 @@ Output:
 
 ```
 
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦲꦏꦱ.ꦱꦮ)
 
 ## ꦧꦕꦸꦠ꧀
 Fungsi padhanané `next` ana ing `python`. Kanggo njupuk nilai sak banjuré saka pratèlan tartamtu.
@@ -350,6 +364,7 @@ Output:
 ꦣꦸꦏꦸ
 
 ```
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦤꦏꦱ.ꦱꦮ)
 
 ## ꦲꦶꦫꦶꦱ꧀ꦱꦤ꧀
 Fungsi iki padha karo `slice` ana ing `python`. Fungsi iki kanggo motong bagian saka pratèlan.
@@ -365,6 +380,8 @@ Output:
 
 ```
 
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦱꦭꦕ.ꦱꦮ)
+
 ## ꦲꦱ꧀ꦏꦶ
 Fungsi iki padha karo `ascii` ana ing `python`. Kanggo mbalèkaké hasil kang gampang diwaca saka manéka objèk. Fungsi iki bakal ngganti aksara _non-ascii_ dadi aksara uwal (_escape_). Amerga aksara jawa kalebu aksara non-ascii, mula yèn dikenani fungsi iki bakal dadi aksara uwal kabèh, sahingga kanggo conto dipilih aksara latin supaya kétok.
 
@@ -378,6 +395,8 @@ Output:
 
 ```
 
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦲꦱꦏ.ꦱꦮ)
+
 ## ꦣꦶꦥ꦳꧀ꦩꦺꦴꦢ꧀
 Fungsi iki padhanané `divmod` ana ing `python`. Fungsi iki bakal mbalèkaké nilai _tuple_ kang isiné yaiku nilai para lan sisané nalika argumèn siji dipara argumèn loro.
 
@@ -390,6 +409,7 @@ Output:
 (꧒, ꧑)
 
 ```
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦣꦉꦩꦢ.ꦱꦮ)
 
 ## ꦲꦶꦣꦶ
 Fungsi iki padhanané `id` ana ing `python`. Kegunaané kanggo mbalèkaké _unique id_ saka sawijining objèk.
@@ -404,22 +424,167 @@ Output:
 ꧔꧕꧕꧙꧔꧗꧒꧙꧖꧐
 
 ```
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦲꦣ.ꦱꦮ)
 
-## "ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀": "object", # objèk
+## ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀
+Fungsi iki padha déné karo `object` ana ing `python`. Kegunaané kanggo mbalèkaké objèk kosong.
 
-## "ꦲꦸꦫꦸꦠ꧀": "sorted", # urut
+```python
+ꦏ = ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀()
+ꦥꦿꦶꦤ꧀(ꦣꦶꦂ(ꦏ))
+```
+Output:
+```bash
+['__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
 
-## "ꦧꦶꦤ꧀": "bin", # bin
+```
 
-## "ꦲꦺꦤꦸꦩꦼꦂꦫꦺꦠ꧀": "enumerate", # enumeret
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦲꦧꦗꦏ.ꦱꦮ)
 
-## "ꦠꦸꦭꦶꦱ꧀": "input", #tulis
+## ꦲꦸꦫꦸꦠ꧀
+Fungsi iki padhanané `sorted` ana ing `python`. Kegunaané kanggo ngurutaké pratèlan.
+_supaya kétok, dipilih conto nganggo aksara latin_
 
-## "ꦲꦺꦴꦏ꧀ꦠ": "oct", # okta
+```python
+ꦏ = ("a","c","e","b","f","d")
+ꦪ = ꦲꦸꦫꦸꦠ꧀(ꦏ)
+ꦥꦿꦶꦤ꧀(ꦪ)
+```
+Output:
+```bash
+['a', 'b', 'c', 'd', 'e', 'f']
 
-## "ꦱꦶꦒꦼꦒ꧀": "staticmethod", #sigeg
+```
 
-## "ꦭꦺꦴꦒꦶꦱ꧀": "bool", # logis
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦱꦫꦠ.ꦱꦮ)
+
+## ꦧꦶꦤ꧀
+Fungsi iki padhanané `bin` ana ing `python`. Kegunaané kanggo ngubah angka (_integer_) dadi ukara binari.
+
+```python
+ꦏ = ꧑꧐
+ꦥꦿꦶꦤ꧀("ꦲꦱꦭ꧀ꦭꦺ ",ꦏ)
+ꦪ = ꦧꦶꦤ꧀(ꦏ)
+ꦥꦿꦶꦤ꧀("ꦧꦶꦤꦫꦶꦤꦺ꧇ ",ꦪ)
+
+ꦏ = 10
+ꦥꦿꦶꦤ꧀("ꦲꦱꦭ꧀ꦭꦺ ",ꦏ)
+ꦪ = ꦧꦶꦤ꧀(ꦏ)
+ꦥꦿꦶꦤ꧀("ꦧꦶꦤꦫꦶꦤꦺ꧇ ",ꦪ)
+
+```
+Output:
+```bash
+ꦲꦱꦭ꧀ꦭꦺ ꧑꧐
+ꦧꦶꦤꦫꦶꦤꦺ ꧐b꧑꧐꧑꧐
+ꦲꦱꦭ꧀ꦭꦺ ꧑꧐
+ꦧꦶꦤꦫꦶꦤꦺ ꧐b꧑꧐꧑꧐
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦧꦤꦫ.ꦱꦮ)
+
+## ꦲꦺꦤꦸꦩꦼꦂꦫꦺꦠ꧀
+Fungsi iki padha karo `enumerate` ana ing `python`. Fungsi iki bakal nambahaké urutan itungan dadi _key_ ana ing pratèlan kang di _enumerate_.
+
+```python
+ꦏ = ("ꦣꦸꦏꦸ","ꦣꦺꦴꦚ꧀ꦣꦺꦴꦁ","ꦱꦭꦏ꧀")
+ꦪ = ꦲꦺꦤꦸꦩꦼꦂꦫꦺꦠ꧀(ꦏ)
+ꦥꦿꦶꦤ꧀(ꦥꦿꦠꦺꦭꦤ꧀(ꦪ))
+
+
+```
+Output:
+```bash
+[(꧐, 'ꦣꦸꦏꦸ'), (꧑, 'ꦣꦺꦴꦚ꧀ꦣꦺꦴꦁ'), (꧒, 'ꦱꦭꦏ꧀')]
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦲꦤꦩꦫꦠ.ꦱꦮ)
+
+## ꦠꦸꦭꦶꦱ꧀
+Fungsi iki padha karo `input` ana ing `python`. Fungsiné kanggo ngolèhaké nulis.
+
+```python
+ꦥꦿꦶꦤ꧀("ꦠꦸꦭꦶꦱ꧀ꦱꦗꦼꦤꦼꦁꦩꦸ:")
+
+ꦏ = ꦠꦸꦭꦶꦱ꧀()
+
+ꦥꦿꦶꦤ꧀("ꦱꦸꦒꦼꦁꦱꦶꦪꦁ "+ ꦏ)
+
+
+
+```
+Output:
+```bash
+ꦠꦸꦭꦶꦱ꧀ꦱꦗꦼꦤꦼꦁꦩꦸ:
+lantip
+ꦱꦸꦒꦼꦁꦱꦶꦪꦁ lantip
+
+```
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦲꦤꦥꦠ.ꦱꦮ)
+
+## ꦲꦺꦴꦏ꧀ꦠ
+Fungsi iki padhanané `oct` ana ing `python`. Kegunaané kanggo ngowahi _integer_ (angka) dadi ukara oktal.
+
+```python
+ꦏ = ꦲꦺꦴꦏ꧀ꦠ(꧒꧓)
+
+ꦥꦿꦶꦤ꧀(ꦏ)
+
+
+
+```
+Output:
+```bash
+꧐o꧒꧗
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦲꦕꦠ.ꦱꦮ)
+
+## ꦱꦶꦒꦼꦒ꧀
+Fungsi iki padhanané `staticmethod` ana ing `python`. Kegunaané kanggo mbalèkaké mètodhe statik saka sawijining fungsi. Fungsi iki dianggep kurang `pythonic`, mula ing `python` versi saiki, digawe `decorator` kanthi aran padha `@staticmethod`.
+
+```python
+ꦏꦼꦭꦱ꧀ ꦩꦠꦶꦏ:
+    ꦥ꦳ꦸꦁꦱꦶ ꦠꦩ꧀ꦧꦃ(ꦏ, ꦪ):
+        ꦧꦭꦶꦏ꧀ ꦏ + ꦪ
+
+# gawe mètodhe statik ꦠꦩ꧀ꦧꦃ
+ꦩꦠꦶꦏ.ꦠꦩ꧀ꦧꦃ = ꦱꦶꦒꦼꦒ꧀(ꦩꦠꦶꦏ.ꦠꦩ꧀ꦧꦃ)
+
+ꦥꦿꦶꦤ꧀('ꦗꦸꦩ꧀ꦭꦃꦲꦺ ꦪꦲꦶꦏꦸ :', ꦩꦠꦶꦏ.ꦠꦩ꧀ꦧꦃ(꧖, ꧘))
+
+
+
+```
+Output:
+```bash
+ꦗꦸꦩ꧀ꦭꦃꦲꦺ ꦪꦲꦶꦏꦸ :꧑꧔
+
+```
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦱꦠꦠꦩꦠꦢ.ꦱꦮ)
+
+## ꦭꦺꦴꦒꦶꦱ꧀
+Fungsi iki padhanané `bool` ana ing `python`. Bakal ngetokaké nilai _boolean_ saka sawijining objèk.
+
+```python
+ꦏ = ꦭꦺꦴꦒꦶꦱ꧀(꧑)
+
+ꦥꦿꦶꦤ꧀(ꦏ)
+
+
+
+```
+Output:
+```bash
+True
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦧꦲꦲꦭ.ꦱꦮ)
+
 
 ## "ꦲꦺꦥ꦳ꦭ꧀": "eval", # efal
 

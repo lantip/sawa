@@ -97,6 +97,20 @@ make install
 pip install sawa
 ```
 
+***NOTE: WINDOWS user***
+Install this package on `virtualenv`.
+
+```bash
+C:>python -m venv C:\Users\<name>\venv
+
+C:>C:\Users\<name>\venv\Scripts\activate.bat
+
+(venv)C:>pip install sawa
+```
+
+and you're good to go.
+
+
 
 ## Running
 

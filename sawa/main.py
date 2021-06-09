@@ -138,11 +138,11 @@ function_dict = {
 def compile(file_name):
     py_content = ''
     # Appending print function code to the file
-    with open(os.path.join(script_dir, 'include.py'), 'r') as file:
+    with open(os.path.join(script_dir, 'include.py'), 'r', encoding="utf-8") as file:
         py_content += file.read()
 
     # Reading file to process the text
-    with open(file_name, 'r') as file:
+    with open(file_name, 'r', encoding="utf-8") as file:
         # Process all content of the file
         py_content += Process(file, num_dict, keyword_dict, function_dict).process()
 
@@ -151,7 +151,7 @@ def compile(file_name):
     # Name of the python file to be created
     py_file = file_split[0] + ".py"
     # Creating the python file
-    f = open(py_file, "w")
+    f = open(py_file, "w", encoding="utf-8")
     # And then writing content to the python file
     f.write(py_content)
 

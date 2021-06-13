@@ -636,11 +636,13 @@ Fungsi iki padhanané `open` ana ing `python`. Kegunaané kanggo mbukak sawijini
 ```
 Output:
 ```bash
-꧔
+ꦥꦸꦤꦶꦏꦏꦮꦿꦸꦃꦥꦼꦥꦏ꧀ꦧꦱꦱꦮ꧉
+ꦮꦺꦴꦚ꧀ꦠꦼꦤ꧀ꦲꦶꦁꦩꦿꦶꦏꦶꦏꦛꦃꦕꦺꦴꦚ꧀ꦠꦺꦴꦏꦒꦼꦩ꧀ꦱꦶꦤꦲꦸꦧꦱꦱꦮ꧉
+
 
 ```
 
-> Conto iki bisa didelok ana ing [kéné](../examples/ꦲꦤꦠ.ꦱꦮ)
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦲꦥꦤ.ꦱꦮ)
 
 ## "ꦱꦼꦫꦠ꧀": "str", # serat
 

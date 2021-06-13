@@ -586,11 +586,61 @@ True
 > Conto iki bisa didelok ana ing [kéné](../examples/ꦧꦲꦲꦭ.ꦱꦮ)
 
 
-## "ꦲꦺꦥ꦳ꦭ꧀": "eval", # efal
+## ꦲꦺꦥ꦳ꦭ꧀
+Fungsi iki padhanané `eval` ana ing `python`. Kegunaané kanggo niliki menawa ukara tartamtu iku kegolong ukara python apa dudu, yèn iya, bakal dilakokaké.
 
-## "ꦲꦁꦏ": "int", # angka
+```python
+ꦏ = 'ꦥꦿꦶꦤ꧀(35)'
 
-## "ꦧꦸꦏꦏ꧀": "open", # bukak
+ꦲꦺꦥ꦳ꦭ꧀(ꦏ)
+
+
+```
+Output:
+```bash
+꧓꧕
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦲꦥꦭ.ꦱꦮ)
+
+
+## ꦲꦁꦏ
+Fungsi iki padhanané `int` ana ing `python`. Kegunaané kanggo ngowahi dadi angka wutuh.
+
+```python
+ꦏ = ꦲꦁꦏ(꧔꧉꧕) #utawa ꦲꦁꦏ(4.5)
+
+ꦥꦿꦶꦤ꧀(ꦏ)
+
+
+```
+Output:
+```bash
+꧔
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦲꦤꦠ.ꦱꦮ)
+
+
+## ꦧꦸꦏꦏ꧀
+Fungsi iki padhanané `open` ana ing `python`. Kegunaané kanggo mbukak sawijining fail banjur didadèkaké objèk.
+
+```python
+ꦏ = ꦧꦸꦏꦏ꧀("file_conto_open.txt","r") 
+
+ꦥꦿꦶꦤ꧀(ꦏ.read())
+
+
+```
+Output:
+```bash
+꧔
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](../examples/ꦲꦤꦠ.ꦱꦮ)
 
 ## "ꦱꦼꦫꦠ꧀": "str", # serat
 

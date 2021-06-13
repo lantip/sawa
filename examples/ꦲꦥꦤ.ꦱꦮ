@@ -1,0 +1,8 @@
+# iki conto kanggo fungsi ꦧꦸꦏꦏ꧀ (open)
+ꦗꦸꦥꦸꦏ꧀ os as ꦲꦺꦴꦱ
+
+ꦥꦁꦒꦺꦴꦤ꧀ꦤꦺ = ꦲꦺꦴꦱ.path.dirname(__file__)
+
+ꦏ = ꦧꦸꦏꦏ꧀(ꦲꦺꦴꦱ.path.join(ꦥꦁꦒꦺꦴꦤ꧀ꦤꦺ, 'file_conto_open.txt'),"r") 
+
+ꦥꦿꦶꦤ꧀(ꦏ.read())

@@ -4,6 +4,7 @@ import os
 import sys
 script_dir = os.path.dirname(__file__)
 
+
 num_dict = {
     "꧐": "0",
     "꧑": "1",
@@ -145,7 +146,6 @@ def compile(file_name):
     with open(file_name, 'r', encoding="utf-8") as file:
         # Process all content of the file
         py_content += Process(file, num_dict, keyword_dict, function_dict).process()
-
     # Splitting file name to remove existing extension in order to add python extension
     file_split = file_name.split(".")
     # Name of the python file to be created
@@ -162,7 +162,7 @@ def main(file_name):
             if flnm.endswith('.ꦱꦮ'):
                 compile(flnm)
                 print(' \r\n ')
-    elif os.path.isfile(file_name):
+    elif os.path.isfile(file_name):        
         compile(file_name)
     else:
         sys.exit("'" + file_name + "'" + " " + FileError.INVALID_FILE.value)

@@ -27,7 +27,7 @@ def main():
                   "Please use ꦱꦮ as extension.")
     file_name = args.name.split('.')
     if os.path.isfile(file_name[0]+'.py'):
-        os.remove(file_name[0]+'.py')
+        os.remove(file_name[0]+'.py') 
     mn.main(args.name)
     call('python3 %s.py' % (file_name[0]), shell=True)
     os.remove(file_name[0]+'.py')

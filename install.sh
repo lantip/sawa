@@ -13,11 +13,11 @@ rm -f /usr/local/bin/${COMMAND_JW}
 # Creating directory
 mkdir $HOME/${PROJECT}
 mkdir $HOME/${PROJECT}/bin
-mkdir $HOME/${PROJECT}/src
+mkdir $HOME/${PROJECT}/sawa
 
 # Copying file to the directory
 cp -r bin/* $HOME/${PROJECT}/bin
-cp -r src/* $HOME/${PROJECT}/src
+cp -r sawa/* $HOME/${PROJECT}/sawa
 cp start.py $HOME/${PROJECT}
 
 

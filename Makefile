@@ -17,11 +17,11 @@ install: clean make_dir copy_dir move_cmd print_status
 make_dir:
 	@mkdir ${HOME}/${PROJECT}
 	@mkdir ${HOME}/${PROJECT}/bin
-	@mkdir ${HOME}/${PROJECT}/src
+	@mkdir ${HOME}/${PROJECT}/sawa
 
 copy_dir:
 	@cp -r bin/* ${HOME}/${PROJECT}/bin
-	@cp -r src/* ${HOME}/${PROJECT}/src
+	@cp -r sawa/* ${HOME}/${PROJECT}/sawa
 	@cp start.py ${HOME}/${PROJECT}
 
 # Adding class path

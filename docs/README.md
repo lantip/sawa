@@ -644,17 +644,216 @@ Output:
 
 > Conto iki bisa didelok ana ing [kéné](./examples/ꦲꦥꦤ.ꦱꦮ)
 
-## "ꦱꦼꦫꦠ꧀": "str", # serat
+## ꦱꦼꦫꦠ꧀
+Fungsi iki padhanané fungsi `str` ana ing `python`. Kanggo ngowahi angka dadi ukara utawa _string_.
 
-## "ꦊꦏꦱ꧀ꦩꦤꦺꦃ": "breakpoint", #lekasmanèh
-## "ꦲꦗꦂ": "exec", # ajar
-## "ꦧꦭꦤꦺ": "isinstance", #balané
-## "ꦲꦺꦴꦫꦼꦢ꧀": "ord", #ored
-## "ꦗꦸꦩ꧀ꦭꦃ": "sum", #jumlah
-## "ꦧꦶꦠꦼꦫꦺ": "bytearray", #bitere
-## "ꦥ꦳ꦶꦭ꧀ꦠꦼꦂ": "filter", #filter
-## "ꦲꦤ꧀ꦣꦃꦲꦤ꧀": "issubclass", #andhahan
-## "ꦏ꧀ꦮꦱ": "pow", #kwasa
+
+```python
+ꦏ = ꦱꦼꦫꦠ꧀(꧔꧉꧕) #utawa ꦱꦼꦫꦠ꧀(4.5)
+
+ꦥꦿꦶꦤ꧀(ꦏ)
+
+
+```
+Output:
+```bash
+꧔.꧕
+
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](./examples/ꦱꦠꦫꦒ.ꦱꦮ)
+
+## ꦊꦏꦱ꧀ꦩꦤꦺꦃ
+Fungsi iki padha déné karo fungsi `breakpoint` ana ing `pyhton`. Fungsi iki lagi ana ing `python 3.7`, kegunaané kanggo métani tuma utawa _debugging_. Nggunakaké fungsi iki, bakal gampang banget yèn dibandingaké nganggo _debugger_ liyané kayata `pdb` utawa `web-pdb`.
+
+```python
+ꦏ = []
+ꦏꦁꦒꦺꦴ ꦲ ꦲꦶꦁ ꦲꦤ꧀ꦠꦫ(꧕):
+    ꦏ.append(ꦲ)
+    ꦪꦺꦤ꧀ ꦲ == ꧔:
+        ꦊꦏꦱ꧀ꦩꦤꦺꦃ()
+        
+ꦥꦿꦶꦤ꧀(ꦏ)
+
+
+```
+Output:
+```bash
+-> for ꦲ in range(5):
+(Pdb) c
+[꧐, ꧑, ꧒, ꧓, ꧔]
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](./examples/ꦧꦫꦏꦥꦤꦠ.ꦱꦮ)
+
+## ꦲꦗꦂ
+Fungsi iki padhanané fungsi `exec` ana ing `python`. Kegunaané yaiku kanggo èksekusi dinamis ing _program_ `python`.
+
+
+```python
+ꦏ = "ꦥꦿꦶꦤ꧀('ꦗꦗꦭꦶꦲꦶꦏꦶꦥꦫꦺꦚ꧀ꦠꦃꦲꦗꦂ')"
+  
+ꦲꦗꦂ(ꦏ)
+
+
+```
+Output:
+```bash
+ꦗꦗꦭꦶꦲꦶꦏꦶꦥꦫꦺꦚ꧀ꦠꦃꦲꦗꦂ
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](./examples/ꦲꦏꦱꦏ.ꦱꦮ)
+
+## ꦧꦭꦤꦺ
+Fungsi iki padha déné karo fungsi `isinstance` ana ing `python`. Fungsi iki bakal mbalèkaké `True` utawa `False` yèn salah sawijining objèk kalebu tipe utawa jinis saka tipe kang wus disamadyaaké.
+
+
+```python
+ꦏ = ꦧꦭꦤꦺ(꧕, ꦲꦁꦏ)
+  
+ꦥꦿꦶꦤ꧀(ꦏ)
+
+
+```
+Output:
+```bash
+True
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](./examples/ꦲꦏꦱꦫ.ꦱꦮ)
+
+## ꦲꦺꦴꦫꦼꦢ꧀
+Fungsi iki padhanané fungsi `ord` ana ing `python`. Fungsi iki bakal mbalèkaké angka saka sawijining karakter.
+
+
+```python
+ꦏ = ꦲꦺꦴꦫꦼꦢ꧀("ꦏ")
+  
+ꦥꦿꦶꦤ꧀(ꦏ)
+
+
+```
+Output:
+```bash
+꧔꧓꧔꧐꧗
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](./examples/ꦲꦫꦢ.ꦱꦮ)
+
+
+## ꦗꦸꦩ꧀ꦭꦃ
+Fungsi iki padha déné karo fungsi `sum` ana ing `python`. Kegunaané kanggo ngétung jumlah saka sawijing _tuple_ utawa _list_.
+
+```python
+ꦏ = (꧑,꧒,꧓,꧔)
+
+ꦪ = ꦗꦸꦩ꧀ꦭꦃ(ꦏ)
+
+ꦥꦿꦶꦤ꧀(ꦪ)
+
+
+```
+Output:
+```bash
+꧑꧐
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](./examples/ꦱꦩ.ꦱꦮ)
+
+## ꦧꦶꦠꦼꦫꦺ
+Fungsi iki padha déné karo fungsi `bytearray` ana ing `python`. Kegunaané kanggo ngasilaké _bytearray_ saka sawijining objèk.
+
+```python
+ꦏ = ꦧꦶꦠꦼꦫꦺ(꧓)
+
+ꦥꦿꦶꦤ꧀(ꦏ)
+
+
+```
+Output:
+```bash
+bytearray(b'\x꧐꧐\x꧐꧐\x꧐꧐')
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](./examples/ꦧꦠꦲꦫ.ꦱꦮ)
+
+## ꦥ꦳ꦶꦭ꧀ꦠꦼꦂ
+Fungsi iki padhanané `filter` ana ing `python`. Fungsi iki bakal ngasilaké _iterator_ sing bagéan-bagéané disaring nganggo fungsi liya, kanggo ngetès yen bagéan iku bisa ditampa apa ora.
+
+```python
+ꦲꦸꦩꦸꦂ = [꧕꧈꧘꧈꧑꧗꧈꧑꧙]
+
+ꦥ꦳ꦸꦁꦱꦶ ꦉꦸꦁꦱꦶꦏꦸ(ꦏ):
+    ꦪꦺꦤ꧀ ꦏ < ꧑꧘:
+        ꦧꦭꦶꦏ꧀ ꦱꦭꦃ
+    ꦭꦶꦪꦤꦺ:
+        ꦧꦭꦶꦏ꧀ ꦧꦼꦤꦼꦂ
+
+ꦢꦺꦮꦱ = ꦥ꦳ꦶꦭ꧀ꦠꦼꦂ(ꦉꦸꦁꦱꦶꦏꦸ, ꦲꦸꦩꦸꦂ)
+
+ꦏꦁꦒꦺꦴ ꦏ ꦲꦶꦁ ꦢꦺꦮꦱ:
+    ꦥꦿꦶꦤ꧀(ꦏ)
+
+
+```
+Output:
+```bash
+꧑꧙
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](./examples/ꦥꦭꦠꦫ.ꦱꦮ)
+
+## ꦲꦤ꧀ꦣꦃꦲꦤ꧀
+Fungsi iki padhanané fungsi `issubclass` ana ing `python`. Fungsi iki bakal mbalèkaké hasil `True`, yen objèk kang ditemtokaké iku kalebu _subclass_ saka sawijing objèk.
+
+```python
+ꦏꦼꦭꦱ꧀ ꦲꦸꦩꦸꦂꦏꦸ:
+    ꦲꦸꦩꦸꦂ = ꧓꧕
+
+ꦏꦼꦭꦱ꧀ ꦒꦮꦺꦪꦤ꧀ꦏꦸ(ꦲꦸꦩꦸꦂꦏꦸ):
+    ꦗꦼꦤꦼꦁ = "ꦥꦲꦶꦗꦺꦴ"
+    ꦲꦸꦩꦸꦂ = ꦲꦸꦩꦸꦂꦏꦸ
+
+ꦏ = ꦲꦤ꧀ꦣꦃꦲꦤ꧀(ꦒꦮꦺꦪꦤ꧀ꦏꦸ, ꦲꦸꦩꦸꦂꦏꦸ)
+
+ꦥꦿꦶꦤ꧀(ꦏ)
+
+```
+Output:
+```bash
+True
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](./examples/ꦲꦱꦏꦭꦧꦱ.ꦱꦮ)
+
+
+## ꦏ꧀ꦮꦱ
+Fungsi iki padhadéné karo `pow` ana ing `python`. Kegunaané kanggo ngasilaké nilai saka x pangkat y.
+
+```python
+
+ꦏ = ꦏ꧀ꦮꦱ(꧔,꧓)
+
+ꦥꦿꦶꦤ꧀(ꦏ)
+
+```
+Output:
+```bash
+꧖꧔
+
+```
+
+> Conto iki bisa didelok ana ing [kéné](./examples/ꦥꦮ.ꦱꦮ)
+
 ## "ꦲꦸꦠꦩ": "super", #utama
 ## "ꦧꦪ꧀ꦠ": "bytes", #bayta
 ## "ꦣꦺꦱꦶꦩꦭ꧀": "float", #dhèsimal

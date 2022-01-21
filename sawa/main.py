@@ -32,7 +32,7 @@ keyword_dict = {
     "ꦠꦼꦫꦸꦱ꧀ꦱꦏꦺ": "continue", #terusake
     "ꦥ꦳ꦸꦁꦱꦶ": "def", #fungsi
     "ꦧꦸꦱꦏ꧀": "del", #busak
-    "ꦲꦸꦠꦮꦭꦶꦪꦤꦺ": "elif", #utawaliyane
+    "ꦭꦶꦪꦤꦺꦪꦺꦤ꧀": "elif", #liyaneyen
     "ꦭꦶꦪꦤꦺ": "else", #liyane
     "ꦏꦼꦗꦧ": "except", #kejaba
     "ꦫꦩ꧀ꦥꦸꦁꦔꦤ꧀": "finally", #rampungane
@@ -123,7 +123,7 @@ function_dict = {
     "ꦫꦺꦥꦼꦂ": "repr", #reper
     "ꦗꦶꦥ꧀": "zip", #jip
     "ꦏꦺꦴꦩ꧀ꦥꦺꦭ꧀": "compile", #kompel
-    "ꦱꦗꦒꦢ꧀": "globals", #sajagad
+    "ꦗꦼꦗꦒꦢ꧀": "globals", #jejagad
     "ꦥꦼꦠ": "map", #peta
     "ꦮꦭꦶꦏ꧀ꦲꦤꦺ": "reversed", #walikane
     "__ꦗꦸꦥꦸꦏ꧀__": "__import__", # __jupuk__

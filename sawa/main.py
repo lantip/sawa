@@ -123,7 +123,7 @@ function_dict = {
     "ꦫꦺꦥꦼꦂ": "repr", #reper
     "ꦗꦶꦥ꧀": "zip", #jip
     "ꦏꦺꦴꦩ꧀ꦥꦺꦭ꧀": "compile", #kompel
-    "ꦗꦼꦒꦢ꧀": "globals", #sajagad
+    "ꦗꦼꦗꦒꦢ꧀": "globals", #jejagad
     "ꦥꦼꦠ": "map", #peta
     "ꦮꦭꦶꦏ꧀ꦲꦤꦺ": "reversed", #walikane
     "__ꦗꦸꦥꦸꦏ꧀__": "__import__", # __jupuk__

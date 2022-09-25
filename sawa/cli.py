@@ -32,10 +32,32 @@ def main():
     call('python3 %s.py' % (file_name[0]), shell=True)
     os.remove(file_name[0]+'.py')
 
+def versionCompare(v1, v2):
+    arr1 = v1.split(".")
+    arr2 = v2.split(".")
+    n = len(arr1)
+    m = len(arr2)
+    arr1 = [int(i) for i in arr1]
+    arr2 = [int(i) for i in arr2]
+  
+    if n>m:
+      for i in range(m, n):
+         arr2.append(0)
+    elif m>n:
+      for i in range(n, m):
+         arr1.append(0)
+     
+    for i in range(len(arr1)):
+      if arr1[i]>arr2[i]:
+         return 1
+      elif arr2[i]>arr1[i]:
+         return -1
+    return 0
 
 def run_as_command():
     version = ".".join(str(v) for v in sys.version_info[:2])
-    if float(version) < 3.6:
+    ans = versionCompare('3.6', version)
+    if ans > 0:
         print("[-] ꦱꦮ mbutuhaké Python vèrsi 3.6 munggah.")
         sys.exit(0)
 

@@ -2,11 +2,11 @@
 ꦧꦠ = ꦧꦪ꧀ꦠ("ꦱꦸꦒꦼꦁ", "utf-8")
 ꦩ = ꦱꦏ꧀ꦭꦺꦧꦠ꧀(ꦧꦠ)
 
-ꦥꦿꦶꦤ꧀(ꦩ)
+ꦕꦶꦛꦏ꧀(ꦩ)
 
 # mbalèkaké yunikod saka aksara sepisan
-ꦥꦿꦶꦤ꧀(ꦩ[꧐])
+ꦕꦶꦛꦏ꧀(ꦩ[꧐])
 
 
 # mbalèkaké yunikod saka aksara kepindho
-ꦥꦿꦶꦤ꧀(ꦩ[꧑])
+ꦕꦶꦛꦏ꧀(ꦩ[꧑])

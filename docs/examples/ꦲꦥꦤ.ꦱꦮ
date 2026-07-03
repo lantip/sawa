@@ -5,4 +5,4 @@
 
 ꦏ = ꦧꦸꦏꦏ꧀(ꦲꦺꦴꦱ.path.join(ꦥꦁꦒꦺꦴꦤ꧀ꦤꦺ, 'file_conto_open.txt'),"r") 
 
-ꦥꦿꦶꦤ꧀(ꦏ.read())
+ꦕꦶꦛꦏ꧀(ꦏ.read())

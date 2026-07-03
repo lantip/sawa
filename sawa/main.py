@@ -24,7 +24,7 @@ keyword_dict = {
     "ꦱꦸꦮꦸꦁ": "None", # suwung
     "ꦢꦢꦶ": "as", # dadi
     "ꦱꦶꦢ": "assert", # sida
-    "ꦲꦺꦴꦫꦩꦡꦸꦏ꧀": "async", # oramathuk
+    "ꦲꦺꦴꦫꦩꦛꦸꦏ꧀": "async", # oramathuk
     "ꦭꦤ꧀": "and", #lan
     "ꦤꦸꦁꦒꦸ": "await", #nunggu
     "ꦭꦺꦫꦺꦤ꧀": "break", #leren
@@ -56,7 +56,7 @@ keyword_dict = {
     "ꦏꦱꦶꦭ꧀": "yield", #kasil
     "ꦭꦺꦴꦒꦶꦱ꧀": "bool", #logis
     "ꦲꦁꦏ": "int", #angka
-    "ꦣꦺꦱꦶꦩꦭ꧀": "float", #dhesimal
+    "ꦝꦺꦱꦶꦩꦭ꧀": "float", #dhesimal
     "ꦲꦸꦏꦫ": "string", #ukara
     "__ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀__": "__dict__", # __objèk__
 }
@@ -74,13 +74,13 @@ function_dict = {
     "ꦒꦺꦠꦂ": "getattr", # gètar
     "ꦱꦺꦠꦂ": "setattr", # sètar
     "ꦏꦁ": "any", # kang
-    "ꦣꦶꦂ": "dir", # dhir
+    "ꦝꦶꦂ": "dir", # dhir
     "ꦲꦺꦏ꦳꧀": "hex", #hèks
     "ꦧꦕꦸꦠ꧀": "next", #bacut
     "ꦲꦶꦫꦶꦱ꧀ꦱꦤ꧀": "slice", # irisan
     "ꦲꦱ꧀ꦏꦶ": "ascii", # aski
-    "ꦣꦶꦥ꦳꧀ꦩꦺꦴꦢ꧀": "divmod", # dhifmod
-    "ꦲꦶꦣꦶ": "id", # idhi
+    "ꦝꦶꦥ꦳꧀ꦩꦺꦴꦢ꧀": "divmod", # dhifmod
+    "ꦲꦶꦝꦶ": "id", # idhi
     "ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀": "object", # objèk
     "ꦲꦸꦫꦸꦠ꧀": "sorted", # urut
     "ꦧꦶꦤ꧀": "bin", # bin
@@ -100,18 +100,18 @@ function_dict = {
     "ꦗꦸꦩ꧀ꦭꦃ": "sum", #jumlah
     "ꦧꦶꦠꦼꦫꦺ": "bytearray", #bitere
     "ꦥ꦳ꦶꦭ꧀ꦠꦼꦂ": "filter", #filter
-    "ꦲꦤ꧀ꦣꦃꦲꦤ꧀": "issubclass", #andhahan
+    "ꦲꦤ꧀ꦝꦃꦲꦤ꧀": "issubclass", #andhahan
     "ꦏ꧀ꦮꦱ": "pow", #kwasa
     "ꦲꦸꦠꦩ": "super", #utama
     "ꦧꦪ꧀ꦠ": "bytes", #bayta
-    "ꦣꦺꦱꦶꦩꦭ꧀": "float", #dhèsimal
+    "ꦝꦺꦱꦶꦩꦭ꧀": "float", #dhèsimal
     "ꦥꦫ": "iter", # para
     "ꦠꦸꦥꦼꦭ꧀": "tuple", # tupel
     "ꦔꦸꦚ꧀ꦢꦁ": "callable", # ngundang
     "ꦮꦸꦗꦸꦢ꧀": "format", # wujud
     "ꦢꦮ": "len", # dawa
     "ꦏꦒꦸꦁꦔꦤꦺ": "property", # kagungané
-    "ꦩꦺꦴꦣꦺꦭ꧀": "type", # modhèl
+    "ꦩꦺꦴꦝꦺꦭ꧀": "type", # modhèl
     "ꦕꦂ": "chr", #car
     "ꦧꦼꦏꦸꦮꦤ꧀": "frozenset", #bekuwan
     "ꦥꦿꦠꦺꦭꦤ꧀": "list", #pratélan
@@ -130,10 +130,10 @@ function_dict = {
     "__ꦊꦏꦱ꧀__": "__init__", # __lekas__
     "__ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀__": "__dict__", # __objèk__
     "ꦩꦤꦺꦏ": "complex", #maneka
-    "ꦒꦣꦃ": "hasattr", #gadhah
+    "ꦒꦝꦃ": "hasattr", #gadhah
     "ꦥꦺꦴꦭ꧀": "max", #pol
     "ꦮꦸꦠꦸꦃ": "round", #wutuh
-    "ꦣꦺꦮꦺ": "self", #dhewe
+    "ꦝꦺꦮꦺ": "self", #dhewe
 }
 
 def compile(file_name):

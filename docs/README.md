@@ -74,7 +74,7 @@ Fungsi iki padha déné karo fungsi `abs` ana ing `python`. Fungsi iki bakal mba
 # bisa uga ditulis
 # ꦲ  = ꦩꦸꦠ꧀ꦭꦏ꧀(-7.25)
 
-ꦥꦿꦶꦤ꧀(ꦲ)
+ꦕꦶꦛꦏ꧀(ꦲ)
 ```
 Output:
 ```bash
@@ -93,11 +93,11 @@ Fungsi iki padha déné karo fungsi `delattr` ana ing python. Fungsi iki kanggo 
         ꦣꦺꦮꦺ.ꦤꦒꦫ = "ꦆꦤ꧀ꦝꦺꦴꦤꦺꦱꦶꦪ"
 
 ꦩ = ꦩꦤꦸꦁꦱ()
-ꦥꦿꦶꦤ꧀(ꦩ.__ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀__)
+ꦕꦶꦛꦏ꧀(ꦩ.__ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀__)
 
 ꦲꦥꦸꦱ꧀ꦲꦠꦿꦶꦧꦸꦠ꧀(ꦩ, 'ꦲꦸꦩꦸꦂ')
 
-ꦥꦿꦶꦤ꧀(ꦩ.__ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀__)
+ꦕꦶꦛꦏ꧀(ꦩ.__ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀__)
 
 ```
 Output:
@@ -114,13 +114,13 @@ Fungsi iki padha karo fungsi `hash` ana ing `python`.
 
 ```python
 # ꦕꦩ꧀ꦥꦸꦂ kanggo integer (angka bulet), ora owah
-ꦥꦿꦶꦤ꧀("ꦕꦩ꧀ꦥꦸꦂ kanggo ꧑꧘ yaiku: ", ꦕꦩ꧀ꦥꦸꦂ(꧑꧘) )
+ꦕꦶꦛꦏ꧀("ꦕꦩ꧀ꦥꦸꦂ kanggo ꧑꧘ yaiku: ", ꦕꦩ꧀ꦥꦸꦂ(꧑꧘) )
 
 # ꦕꦩ꧀ꦥꦸꦂ kanggo dhèsimal
-ꦥꦿꦶꦤ꧀("ꦕꦩ꧀ꦥꦸꦂ kanggo ꧑꧘꧑.꧒꧓ yaiku: ", ꦕꦩ꧀ꦥꦸꦂ(꧑꧘꧑.꧒꧓) )
+ꦕꦶꦛꦏ꧀("ꦕꦩ꧀ꦥꦸꦂ kanggo ꧑꧘꧑.꧒꧓ yaiku: ", ꦕꦩ꧀ꦥꦸꦂ(꧑꧘꧑.꧒꧓) )
 
 # ꦕꦩ꧀ꦥꦸꦂ kanggo string (aksara wyanjana)
-ꦥꦿꦶꦤ꧀("ꦕꦩ꧀ꦥꦸꦂ kanggo ꦥꦶꦠꦺꦴꦤ꧀ yaiku: ", ꦕꦩ꧀ꦥꦸꦂ("ꦥꦶꦠꦺꦴꦤ꧀") )
+ꦕꦶꦛꦏ꧀("ꦕꦩ꧀ꦥꦸꦂ kanggo ꦥꦶꦠꦺꦴꦤ꧀ yaiku: ", ꦕꦩ꧀ꦥꦸꦂ("ꦥꦶꦠꦺꦴꦤ꧀") )
 
 ```
 Output:
@@ -141,14 +141,14 @@ Fungsi iki amung nampa bytes, kamangka aksara Jawa iku dudu karakter ascii, mula
 ꦧꦠ = ꦧꦪ꧀ꦠ("ꦱꦸꦒꦼꦁ", "utf-8")
 ꦩ = ꦱꦏ꧀ꦭꦺꦧꦠ꧀(ꦧꦠ)
 
-ꦥꦿꦶꦤ꧀(ꦩ)
+ꦕꦶꦛꦏ꧀(ꦩ)
 
 # mbalèkaké yunikod saka aksara sepisan
-ꦥꦿꦶꦤ꧀(ꦩ[꧐])
+ꦕꦶꦛꦏ꧀(ꦩ[꧐])
 
 
 # mbalèkaké yunikod saka aksara kapindho
-ꦥꦿꦶꦤ꧀(ꦩ[꧑])
+ꦕꦶꦛꦏ꧀(ꦩ[꧑])
 
 ```
 Output:
@@ -166,7 +166,7 @@ Fungsi iki padha karo `set` ing `python`. Kegunaané kanggo gawé kumpulan objè
 ```python
 ꦩ = ꦲꦺꦴꦩ꧀ꦧꦾꦺꦴꦏ꧀(("ꦣꦸꦏꦸ","ꦣꦺꦴꦚ꧀ꦣꦺꦴꦁ","ꦱꦭꦏ꧀"))
 
-ꦥꦿꦶꦤ꧀(ꦩ)
+ꦕꦶꦛꦏ꧀(ꦩ)
 
 ```
 Output:
@@ -183,14 +183,14 @@ Fungsi iki padha karo `all` ing `python`. Fungsi iki bakal mbalèkaké `ꦧꦼ�
 ꦩ = [ꦧꦼꦤꦼꦂ,ꦧꦼꦤꦼꦂ,ꦧꦼꦤꦼꦂ]
 ꦏ = ꦏꦧꦺꦃ(ꦩ)
 
-ꦥꦿꦶꦤ꧀("iki bakal asilé ꦧꦼꦤꦼꦂ (True)")
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀("iki bakal asilé ꦧꦼꦤꦼꦂ (True)")
+ꦕꦶꦛꦏ꧀(ꦏ)
 
 ꦩ = [ꦧꦼꦤꦼꦂ,ꦧꦼꦤꦼꦂ,ꦱꦭꦃ]
 ꦏ = ꦏꦧꦺꦃ(ꦩ)
 
-ꦥꦿꦶꦤ꧀("iki bakal asilé ꦱꦭꦃ (False)")
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀("iki bakal asilé ꦱꦭꦃ (False)")
+ꦕꦶꦛꦏ꧀(ꦏ)
 
 
 ```
@@ -209,7 +209,7 @@ Fungsi iki padha karo `dict` ing `python`. Fungsi iki kanggo gawé kolèksi sing
 ```python
 ꦩ = ꦧꦲꦸꦱꦱ꧀ꦠꦿ(ꦗꦼꦤꦼꦁ = "ꦱꦸꦢꦂꦩꦗꦶ", ꦲꦸꦩꦸꦂ = "꧒꧓", ꦤꦼꦒꦫ = "ꦩꦠꦫꦩ꧀")
 
-ꦥꦿꦶꦤ꧀(ꦩ)
+ꦕꦶꦛꦏ꧀(ꦩ)
 
 
 ```
@@ -222,7 +222,7 @@ Output:
 ## ꦥꦶꦠꦸꦭꦸꦁ 
 Fungsi iki padha karo `help` ing `python`. Fungsi iki kanggo ngetokné _help_ utawa pitulung ana ing sistem _built-in_ `python`.
 Yèn diceluk kosongan, bakal metu pandhuan interaktif, ananging yèn diwènèhi jeneng salah siji fungsi, mula bakal diwènèhi pandhuan angenani bab iku.
-Fungsi sing bisa diceluk ana ing kéné, isih kudu padha karo fungsi asliné `python`, dadi yèn arep ndelok pitulung kanggo fungsi `ꦥꦿꦶꦤ꧀` nulisé kudu tetep `print`.
+Fungsi sing bisa diceluk ana ing kéné, isih kudu padha karo fungsi asliné `python`, dadi yèn arep ndelok pitulung kanggo fungsi `ꦕꦶꦛꦏ꧀` nulisé kudu tetep `print`.
 
 ```python
 ꦥꦶꦠꦸꦭꦸꦁ(print)
@@ -236,7 +236,7 @@ Fungsi iki padha karo `min` ana ing `python`. Kegunaané kanggo njupuk sing biji
 ```python
 ꦩ = ꦩꦶꦤꦶꦩꦭ꧀(꧓, ꧖, ꧒)
 
-ꦥꦿꦶꦤ꧀(ꦩ)
+ꦕꦶꦛꦏ꧀(ꦩ)
 
 
 ```
@@ -257,7 +257,7 @@ Fungsi iki padhanané `getattr` ana ing `python`. Kegunaané kanggo njupuk biji 
 
 ꦏ = ꦒꦺꦠꦂ(ꦩꦤꦸꦁꦱ, 'ꦲꦸꦩꦸꦂ')
 
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 
 ```
 Output:
@@ -280,7 +280,7 @@ Fungsi iki padhanané `setattr` ana ing `python`. Kegunaané kanggo ngisi biji u
 
 ꦏ = ꦒꦺꦠꦂ(ꦩꦤꦸꦁꦱ, 'ꦲꦸꦩꦸꦂ')
 
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 
 ```
 Output:
@@ -298,7 +298,7 @@ Fungsi iki padhanané `any` ana ing `python`. Fungsi iki bakal ngetokaké nilai 
 
 ꦏ = ꦏꦁ(ꦩ)
 
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 
 ```
 Output:
@@ -317,7 +317,7 @@ Fungsi iki padhanané `dir` ana ing `python`. Fungsi iki bakal mbalèkaké samub
     ꦲꦸꦩꦸꦂ = 36 # utawa ꧓꧖
     ꦤꦒꦫ = "ꦆꦤ꧀ꦝꦺꦴꦤꦺꦱꦶꦪ"
 
-ꦥꦿꦶꦤ꧀(ꦣꦶꦂ(ꦩꦤꦸꦁꦱ))
+ꦕꦶꦛꦏ꧀(ꦣꦶꦂ(ꦩꦤꦸꦁꦱ))
 
 ```
 Output:
@@ -332,7 +332,7 @@ Fungsi kang padha karo `hex` ana ing `python`. Fungsi iki kanggo ngubah angka da
 ```python
 ꦲ = ꦲꦺꦏ꦳꧀(꧒꧕꧕)
 
-ꦥꦿꦶꦤ꧀(ꦲ)
+ꦕꦶꦛꦏ꧀(ꦲ)
 
 ```
 Output:
@@ -349,11 +349,11 @@ Fungsi padhanané `next` ana ing `python`. Kanggo njupuk nilai sak banjuré saka
 ```python
 ꦩꦭꦱ = ꦥꦫ(["ꦣꦺꦴꦚ꧀ꦣꦺꦴꦁ", "ꦱꦭꦏ꧀", "ꦣꦸꦏꦸ"])
 ꦏ = ꦧꦕꦸꦠ꧀(ꦩꦭꦱ)
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 ꦏ = ꦧꦕꦸꦠ꧀(ꦩꦭꦱ)
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 ꦏ = ꦧꦕꦸꦠ꧀(ꦩꦭꦱ)
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 
 
 ```
@@ -372,7 +372,7 @@ Fungsi iki padha karo `slice` ana ing `python`. Fungsi iki kanggo motong bagian 
 ```python
 ꦲ = ("ꦲ", "ꦤ", "ꦕ", "ꦫ", "ꦏ", "ꦢ", "ꦠ", "ꦱ", "ꦮ", "ꦭ")
 ꦏ = ꦲꦶꦫꦶꦱ꧀ꦱꦤ꧀(꧓)
-ꦥꦿꦶꦤ꧀(ꦲ[ꦏ])
+ꦕꦶꦛꦏ꧀(ꦲ[ꦏ])
 ```
 Output:
 ```bash
@@ -387,7 +387,7 @@ Fungsi iki padha karo `ascii` ana ing `python`. Kanggo mbalèkaké hasil kang ga
 
 ```python
 ꦏ = ꦲꦱ꧀ꦏꦶ("nami kula Ståle")
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 ```
 Output:
 ```bash
@@ -402,7 +402,7 @@ Fungsi iki padhanané `divmod` ana ing `python`. Fungsi iki bakal mbalèkaké ni
 
 ```python
 ꦏ = ꦣꦶꦥ꦳꧀ꦩꦺꦴꦢ꧀(꧕,꧒)
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 ```
 Output:
 ```bash
@@ -417,7 +417,7 @@ Fungsi iki padhanané `id` ana ing `python`. Kegunaané kanggo mbalèkaké _uniq
 ```python
 ꦏ = ("ꦣꦺꦴꦚ꧀ꦣꦺꦴꦁ", "ꦱꦭꦏ꧀", "ꦣꦸꦏꦸ")
 ꦪ = ꦲꦶꦣꦶ(ꦏ)
-ꦥꦿꦶꦤ꧀(ꦪ)
+ꦕꦶꦛꦏ꧀(ꦪ)
 ```
 Output:
 ```bash
@@ -431,7 +431,7 @@ Fungsi iki padha déné karo `object` ana ing `python`. Kegunaané kanggo mbalè
 
 ```python
 ꦏ = ꦲꦺꦴꦧ꧀ꦗꦺꦏ꧀()
-ꦥꦿꦶꦤ꧀(ꦣꦶꦂ(ꦏ))
+ꦕꦶꦛꦏ꧀(ꦣꦶꦂ(ꦏ))
 ```
 Output:
 ```bash
@@ -448,7 +448,7 @@ _supaya kétok, dipilih conto nganggo aksara latin_
 ```python
 ꦏ = ("a","c","e","b","f","d")
 ꦪ = ꦲꦸꦫꦸꦠ꧀(ꦏ)
-ꦥꦿꦶꦤ꧀(ꦪ)
+ꦕꦶꦛꦏ꧀(ꦪ)
 ```
 Output:
 ```bash
@@ -463,14 +463,14 @@ Fungsi iki padhanané `bin` ana ing `python`. Kegunaané kanggo ngubah angka (_i
 
 ```python
 ꦏ = ꧑꧐
-ꦥꦿꦶꦤ꧀("ꦲꦱꦭ꧀ꦭꦺ ",ꦏ)
+ꦕꦶꦛꦏ꧀("ꦲꦱꦭ꧀ꦭꦺ ",ꦏ)
 ꦪ = ꦧꦶꦤ꧀(ꦏ)
-ꦥꦿꦶꦤ꧀("ꦧꦶꦤꦫꦶꦤꦺ꧇ ",ꦪ)
+ꦕꦶꦛꦏ꧀("ꦧꦶꦤꦫꦶꦤꦺ꧇ ",ꦪ)
 
 ꦏ = 10
-ꦥꦿꦶꦤ꧀("ꦲꦱꦭ꧀ꦭꦺ ",ꦏ)
+ꦕꦶꦛꦏ꧀("ꦲꦱꦭ꧀ꦭꦺ ",ꦏ)
 ꦪ = ꦧꦶꦤ꧀(ꦏ)
-ꦥꦿꦶꦤ꧀("ꦧꦶꦤꦫꦶꦤꦺ꧇ ",ꦪ)
+ꦕꦶꦛꦏ꧀("ꦧꦶꦤꦫꦶꦤꦺ꧇ ",ꦪ)
 
 ```
 Output:
@@ -490,7 +490,7 @@ Fungsi iki padha karo `enumerate` ana ing `python`. Fungsi iki bakal nambahaké 
 ```python
 ꦏ = ("ꦣꦸꦏꦸ","ꦣꦺꦴꦚ꧀ꦣꦺꦴꦁ","ꦱꦭꦏ꧀")
 ꦪ = ꦲꦺꦤꦸꦩꦼꦂꦫꦺꦠ꧀(ꦏ)
-ꦥꦿꦶꦤ꧀(ꦥꦿꦠꦺꦭꦤ꧀(ꦪ))
+ꦕꦶꦛꦏ꧀(ꦥꦿꦠꦺꦭꦤ꧀(ꦪ))
 
 
 ```
@@ -506,11 +506,11 @@ Output:
 Fungsi iki padha karo `input` ana ing `python`. Fungsiné kanggo ngolèhaké nulis.
 
 ```python
-ꦥꦿꦶꦤ꧀("ꦠꦸꦭꦶꦱ꧀ꦱꦗꦼꦤꦼꦁꦩꦸ:")
+ꦕꦶꦛꦏ꧀("ꦠꦸꦭꦶꦱ꧀ꦱꦗꦼꦤꦼꦁꦩꦸ:")
 
 ꦏ = ꦠꦸꦭꦶꦱ꧀()
 
-ꦥꦿꦶꦤ꧀("ꦱꦸꦒꦼꦁꦱꦶꦪꦁ "+ ꦏ)
+ꦕꦶꦛꦏ꧀("ꦱꦸꦒꦼꦁꦱꦶꦪꦁ "+ ꦏ)
 
 
 
@@ -530,7 +530,7 @@ Fungsi iki padhanané `oct` ana ing `python`. Kegunaané kanggo ngowahi _integer
 ```python
 ꦏ = ꦲꦺꦴꦏ꧀ꦠ(꧒꧓)
 
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 
 
 
@@ -554,7 +554,7 @@ Fungsi iki padhanané `staticmethod` ana ing `python`. Kegunaané kanggo mbalèk
 # gawe mètodhe statik ꦠꦩ꧀ꦧꦃ
 ꦩꦠꦶꦏ.ꦠꦩ꧀ꦧꦃ = ꦱꦶꦒꦼꦒ꧀(ꦩꦠꦶꦏ.ꦠꦩ꧀ꦧꦃ)
 
-ꦥꦿꦶꦤ꧀('ꦗꦸꦩ꧀ꦭꦃꦲꦺ ꦪꦲꦶꦏꦸ :', ꦩꦠꦶꦏ.ꦠꦩ꧀ꦧꦃ(꧖, ꧘))
+ꦕꦶꦛꦏ꧀('ꦗꦸꦩ꧀ꦭꦃꦲꦺ ꦪꦲꦶꦏꦸ :', ꦩꦠꦶꦏ.ꦠꦩ꧀ꦧꦃ(꧖, ꧘))
 
 
 
@@ -572,7 +572,7 @@ Fungsi iki padhanané `bool` ana ing `python`. Bakal ngetokaké nilai _boolean_ 
 ```python
 ꦏ = ꦭꦺꦴꦒꦶꦱ꧀(꧑)
 
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 
 
 
@@ -590,7 +590,7 @@ True
 Fungsi iki padhanané `eval` ana ing `python`. Kegunaané kanggo niliki menawa ukara tartamtu iku kegolong ukara python apa dudu, yèn iya, bakal dilakokaké.
 
 ```python
-ꦏ = 'ꦥꦿꦶꦤ꧀(35)'
+ꦏ = 'ꦕꦶꦛꦏ꧀(35)'
 
 ꦲꦺꦥ꦳ꦭ꧀(ꦏ)
 
@@ -611,7 +611,7 @@ Fungsi iki padhanané `int` ana ing `python`. Kegunaané kanggo ngowahi dadi ang
 ```python
 ꦏ = ꦲꦁꦏ(꧔꧉꧕) #utawa ꦲꦁꦏ(4.5)
 
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 
 
 ```
@@ -630,7 +630,7 @@ Fungsi iki padhanané `open` ana ing `python`. Kegunaané kanggo mbukak sawijini
 ```python
 ꦏ = ꦧꦸꦏꦏ꧀("file_conto_open.txt","r") 
 
-ꦥꦿꦶꦤ꧀(ꦏ.read())
+ꦕꦶꦛꦏ꧀(ꦏ.read())
 
 
 ```
@@ -651,7 +651,7 @@ Fungsi iki padhanané fungsi `str` ana ing `python`. Kanggo ngowahi angka dadi u
 ```python
 ꦏ = ꦱꦼꦫꦠ꧀(꧔꧉꧕) #utawa ꦱꦼꦫꦠ꧀(4.5)
 
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 
 
 ```
@@ -674,7 +674,7 @@ Fungsi iki padha déné karo fungsi `breakpoint` ana ing `pyhton`. Fungsi iki la
     ꦪꦺꦤ꧀ ꦲ == ꧔:
         ꦊꦏꦱ꧀ꦩꦤꦺꦃ()
         
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 
 
 ```
@@ -693,7 +693,7 @@ Fungsi iki padhanané fungsi `exec` ana ing `python`. Kegunaané yaiku kanggo è
 
 
 ```python
-ꦏ = "ꦥꦿꦶꦤ꧀('ꦗꦗꦭꦶꦲꦶꦏꦶꦥꦫꦺꦚ꧀ꦠꦃꦲꦗꦂ')"
+ꦏ = "ꦕꦶꦛꦏ꧀('ꦗꦗꦭꦶꦲꦶꦏꦶꦥꦫꦺꦚ꧀ꦠꦃꦲꦗꦂ')"
   
 ꦲꦗꦂ(ꦏ)
 
@@ -714,7 +714,7 @@ Fungsi iki padha déné karo fungsi `isinstance` ana ing `python`. Fungsi iki ba
 ```python
 ꦏ = ꦧꦭꦤꦺ(꧕, ꦲꦁꦏ)
   
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 
 
 ```
@@ -733,7 +733,7 @@ Fungsi iki padhanané fungsi `ord` ana ing `python`. Fungsi iki bakal mbalèkak�
 ```python
 ꦏ = ꦲꦺꦴꦫꦼꦢ꧀("ꦏ")
   
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 
 
 ```
@@ -754,7 +754,7 @@ Fungsi iki padha déné karo fungsi `sum` ana ing `python`. Kegunaané kanggo ng
 
 ꦪ = ꦗꦸꦩ꧀ꦭꦃ(ꦏ)
 
-ꦥꦿꦶꦤ꧀(ꦪ)
+ꦕꦶꦛꦏ꧀(ꦪ)
 
 
 ```
@@ -772,7 +772,7 @@ Fungsi iki padha déné karo fungsi `bytearray` ana ing `python`. Kegunaané kan
 ```python
 ꦏ = ꦧꦶꦠꦼꦫꦺ(꧓)
 
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 
 
 ```
@@ -799,7 +799,7 @@ Fungsi iki padhanané `filter` ana ing `python`. Fungsi iki bakal ngasilaké _it
 ꦢꦺꦮꦱ = ꦥ꦳ꦶꦭ꧀ꦠꦼꦂ(ꦉꦸꦁꦱꦶꦏꦸ, ꦲꦸꦩꦸꦂ)
 
 ꦏꦁꦒꦺꦴ ꦏ ꦲꦶꦁ ꦢꦺꦮꦱ:
-    ꦥꦿꦶꦤ꧀(ꦏ)
+    ꦕꦶꦛꦏ꧀(ꦏ)
 
 
 ```
@@ -824,7 +824,7 @@ Fungsi iki padhanané fungsi `issubclass` ana ing `python`. Fungsi iki bakal mba
 
 ꦏ = ꦲꦤ꧀ꦣꦃꦲꦤ꧀(ꦒꦮꦺꦪꦤ꧀ꦏꦸ, ꦲꦸꦩꦸꦂꦏꦸ)
 
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 
 ```
 Output:
@@ -843,7 +843,7 @@ Fungsi iki padhadéné karo `pow` ana ing `python`. Kegunaané kanggo ngasilaké
 
 ꦏ = ꦏ꧀ꦮꦱ(꧔,꧓)
 
-ꦥꦿꦶꦤ꧀(ꦏ)
+ꦕꦶꦛꦏ꧀(ꦏ)
 
 ```
 Output:
